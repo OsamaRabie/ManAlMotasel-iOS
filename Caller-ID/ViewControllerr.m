@@ -1277,10 +1277,18 @@
             {
                 if([[[NSUserDefaults standardUserDefaults] stringForKey:@"lang"]isEqualToString:@"en"])
                 {
-                    [self->headerLabel setText:[NSString stringWithFormat:@"The number has 10+ spam reports from the app's users.\nTop %lu: reported names",(unsigned long)self->namesArray.count]];
+                    if(self->namesArray.count == 0) {
+                        [self->headerLabel setText:@"Sorry, we didn't get the minimum spam reports for this number."];
+                    }else{
+                        [self->headerLabel setText:[NSString stringWithFormat:@"The number has 10+ spam reports from the app's users.\nTop %lu: reported names",(unsigned long)self->namesArray.count]];
+                    }
                 }else
                 {
-                    [self->headerLabel setText:[NSString stringWithFormat:@"الرقم عليه ١٠+ بلاغات كمتطفل،\n أعلى %lu أسماء في البلاغات:",(unsigned long)self->namesArray.count]];
+                    if(self->namesArray.count == 0) {
+                        [self->headerLabel setText:@"عفوا، لم نتلق بلاغات للرقم"];
+                    }else{
+                        [self->headerLabel setText:[NSString stringWithFormat:@"الرقم عليه ١٠+ بلاغات كمتطفل،\n أعلى %lu أسماء في البلاغات:",(unsigned long)self->namesArray.count]];
+                    }
                 }
             }else
             {
