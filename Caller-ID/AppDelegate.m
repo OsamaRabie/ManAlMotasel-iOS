@@ -15,6 +15,7 @@
 #import "UIViewController+iOS13Fixes.h"
 #import  <FirebaseMessaging.h>
 #import <KSToastView/KSToastView.h>
+#import "Utils.h"
 
 @interface AppDelegate ()<UNUserNotificationCenterDelegate,FIRMessagingDelegate>
 @property(strong,nonatomic) FIRDatabaseReference* ref;
@@ -141,6 +142,9 @@ static NSString *kAppKey = @"57ad9eb8a3fc27242a8b46ea";
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    NSString*countryCode = ([Utils isVpnActive]) ? @"us" : @"kw";
+    [[NSUserDefaults standardUserDefaults] setObject:countryCode forKey:@"country"];
+    [[NSUserDefaults standardUserDefaults]synchronize];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
