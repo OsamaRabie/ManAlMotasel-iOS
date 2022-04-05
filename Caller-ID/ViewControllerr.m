@@ -1804,7 +1804,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+
     theRow = indexPath.row;
     
     if ([self isFavName:[namesArray objectAtIndex:indexPath.row] andNumber:[numbersArray objectAtIndex:indexPath.row]])
@@ -1830,8 +1830,6 @@
         
         if (@available(iOS 11, *)) {
           
-            
-            
             UIAlertAction* yesButton = [UIAlertAction
                                         actionWithTitle:[[jsonLoc objectForKey:[[NSUserDefaults standardUserDefaults] objectForKey:@"lang"]] objectForKey:@"blockNumber"]
                                         style:UIAlertActionStyleDefault

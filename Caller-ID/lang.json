@@ -38,7 +38,7 @@
         "needCoins":"You need coins to VIP",
         "newCoins":"You are left with %@ coins",
         "optionsHeader":"Options",
-        "blockNumber":"Block calls from this number for 20 Coins",
+        "blockNumber":"Block calls from this number\rfor 20 Coins",
         "callEnableHeader":"Activate the app",
         "callEnableMessage":"You have to activate the app in order to be able to block spammers, go to Settings, Phone, Call blocking, activate the app",
         "blockedBefore":"The number was blockd before",
