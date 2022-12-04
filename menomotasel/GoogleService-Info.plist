@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>51331561540-045es719vk9olq0njl3659qh2p8u4gsc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.51331561540-045es719vk9olq0njl3659qh2p8u4gsc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDN7rU_z8jcYrxCadwGwcNw1s2fEvd9gKU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>51331561540</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>meno.motasel.app</string>
+	<key>PROJECT_ID</key>
+	<string>menomotaselq8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>menomotaselq8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:51331561540:ios:80dde72c50805cf2</string>
+	<key>DATABASE_URL</key>
+	<string>https://menomotaselq8.firebaseio.com</string>
+</dict>
+</plist>
