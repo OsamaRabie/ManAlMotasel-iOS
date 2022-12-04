@@ -6,15 +6,5 @@ target 'menomotasel' do
   use_frameworks!
 
   # Pods for menomotasel
-pod 'Firebase/Core'
-pod 'Firebase/Messaging'
-pod 'Google-Mobile-Ads-SDK'
-pod 'Firebase/Storage'
-pod 'FirebaseFirestore'
-pod 'Firebase/Auth'
-pod 'Firebase'
-pod 'Firebase/InAppMessaging'
-pod 'Firebase/Analytics'
-pod 'Firebase/RemoteConfig'
-pod 'KSToastView', '0.5.7'
+
 end
