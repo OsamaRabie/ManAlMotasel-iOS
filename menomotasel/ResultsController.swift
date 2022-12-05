@@ -102,6 +102,8 @@ class ResultsController: UIViewController, UITableViewDelegate, UITableViewDataS
         {
         case 11: showStatus(text: "تم التبليغ بنجاح!", isRed: false)
             break
+        case 12: showStatus(text: "تم حظر الرقم بنجاح!", isRed: true)
+            break
         case 13: self.copTheNumber()
             break
         default: print("default")

@@ -400,7 +400,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmb-Wo-un1">
-                                                            <rect key="frame" x="131" y="0.0" width="132" height="75"/>
+                                                            <rect key="frame" x="190" y="0.0" width="94" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.91897416109999996" green="0.26964712140000002" blue="0.64076497200000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -409,7 +409,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jck-7u-aE8">
-                                                            <rect key="frame" x="263" y="0.0" width="131" height="75"/>
+                                                            <rect key="frame" x="285" y="0.0" width="109" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -422,7 +422,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXO-BP-bwy">
-                                                            <rect key="frame" x="0.0" y="0.0" width="130" height="75"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="94" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="0.51943585049999996" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -431,7 +431,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تبليغ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJX-gd-UX1">
-                                                            <rect key="frame" x="154" y="44" width="82" height="34"/>
+                                                            <rect key="frame" x="196" y="44" width="82" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -439,7 +439,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="نسخ الرقم" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjT-ZE-2nZ">
-                                                            <rect key="frame" x="24" y="41" width="81" height="34"/>
+                                                            <rect key="frame" x="7" y="41" width="81" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -447,12 +447,33 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-report-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="6tl-iH-15L">
-                                                            <rect key="frame" x="179" y="8" width="40" height="40"/>
+                                                            <rect key="frame" x="221" y="8" width="40" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-copy-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="rYb-Kk-Xkk">
-                                                            <rect key="frame" x="45" y="8" width="40" height="40"/>
+                                                            <rect key="frame" x="28" y="8" width="40" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74H-Xb-NfV">
+                                                            <rect key="frame" x="95" y="0.0" width="94" height="75"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <connections>
+                                                                <action selector="optionClicked:" destination="mxO-qr-PpB" eventType="touchUpInside" id="4ap-2n-UXm"/>
+                                                            </connections>
+                                                        </button>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="حظر" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgC-xy-DoG">
+                                                            <rect key="frame" x="100" y="41" width="84" height="34"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-block-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="CQB-rH-e88">
+                                                            <rect key="frame" x="122" y="7" width="40" height="40"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -799,7 +820,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjE-Rl-VhR">
-                                                            <rect key="frame" x="131" y="0.0" width="130" height="75"/>
+                                                            <rect key="frame" x="190" y="0.0" width="94" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.91897416109999996" green="0.26964712140000002" blue="0.64076497202355442" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -808,7 +829,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dl-HY-7fB">
-                                                            <rect key="frame" x="0.0" y="0.0" width="130" height="75"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="94" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="0.51943585047678575" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -817,7 +838,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FuJ-i3-bF9">
-                                                            <rect key="frame" x="262" y="0.0" width="129" height="75"/>
+                                                            <rect key="frame" x="285" y="0.0" width="106" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -830,7 +851,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تبليغ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWp-69-i3b">
-                                                            <rect key="frame" x="155" y="41" width="81" height="34"/>
+                                                            <rect key="frame" x="197" y="41" width="81" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -838,7 +859,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="نسخ الرقم" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exc-fL-eW4">
-                                                            <rect key="frame" x="24" y="41" width="81" height="34"/>
+                                                            <rect key="frame" x="7" y="41" width="81" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -846,12 +867,33 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-report-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="aiA-wi-BAV">
-                                                            <rect key="frame" x="175" y="8" width="40" height="40"/>
+                                                            <rect key="frame" x="217" y="8" width="40" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-copy-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="79D-eq-Fnw">
-                                                            <rect key="frame" x="45" y="8" width="40" height="40"/>
+                                                            <rect key="frame" x="28" y="8" width="40" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4s-oo-GK2">
+                                                            <rect key="frame" x="95" y="0.0" width="94" height="75"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <connections>
+                                                                <action selector="optionClicked:" destination="zkA-N8-bIb" eventType="touchUpInside" id="Ab2-XQ-7iP"/>
+                                                            </connections>
+                                                        </button>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="حظر" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSl-gQ-m5x">
+                                                            <rect key="frame" x="100" y="41" width="84" height="34"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-block-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="RoA-lO-tIa">
+                                                            <rect key="frame" x="122" y="7" width="40" height="40"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -932,6 +974,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                     </tabBar>
                     <connections>
                         <segue destination="mxO-qr-PpB" kind="relationship" relationship="viewControllers" id="YCy-EC-0tf"/>
+                        <segue destination="1FW-Et-Pxu" kind="relationship" relationship="viewControllers" id="Pjt-vV-QHP"/>
                         <segue destination="KLd-kc-47d" kind="relationship" relationship="viewControllers" id="zj7-8F-U4R"/>
                     </connections>
                 </tabBarController>
@@ -939,12 +982,160 @@ If you have any questions about this Privacy Policy, please contact us.</string>
             </objects>
             <point key="canvasLocation" x="-594" y="196"/>
         </scene>
+        <!--Protection Controller-->
+        <scene sceneID="uaB-I2-vD7">
+            <objects>
+                <viewController id="1FW-Et-Pxu" customClass="ProtectionController" customModule="menomotasel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Udv-JO-S0J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-sec-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="cPw-T6-XqC">
+                                <rect key="frame" x="1" y="1" width="414" height="894"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxg-vw-dTl">
+                                <rect key="frame" x="-1" y="0.0" width="414" height="350"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2092244026" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.05000000074505806" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="security-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="N8e-FZ-6Ic">
+                                <rect key="frame" x="-1" y="-1" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unprotected-image.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wob-am-ubR">
+                                <rect key="frame" x="120" y="60" width="174" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="75" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="PtS-jx-1hi">
+                                <rect key="frame" x="9" y="357" width="393" height="455"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="spamCell" rowHeight="75" id="bt5-AH-UW8">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="75"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bt5-AH-UW8" id="zlZ-DP-tdp">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="75"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="فلان" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ia-Eq-T0L">
+                                                    <rect key="frame" x="92" y="8" width="226" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
+                                                    <color key="textColor" red="0.074509803920000006" green="0.1139266416" blue="0.3882583678" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12345678" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4td-Mm-Al5">
+                                                    <rect key="frame" x="92" y="46" width="226" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.6784313917" green="0.6784313917" blue="0.6784313917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blacklisted-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qtz-iq-ibW">
+                                                    <rect key="frame" x="326" y="12" width="55" height="55"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="1FW-Et-Pxu" id="vNm-jg-Llo"/>
+                                    <outlet property="delegate" destination="1FW-Et-Pxu" id="eh0-vp-r2L"/>
+                                </connections>
+                            </tableView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="svf-Na-ayJ">
+                                <rect key="frame" x="11" y="362" width="394" height="232"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="لتفعيل الحماية من السبام افتح إعدادات الأيفون" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbl-Bl-i0h">
+                                        <rect key="frame" x="10" y="8" width="325" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="system-settings-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="See-9C-1HZ">
+                                        <rect key="frame" x="343" y="14" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="اضغط على الهاتف - ثم حظر المكالمات وتحديد الهوية" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oN9-QT-V0V">
+                                        <rect key="frame" x="10" y="56" width="325" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="system-phone-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xnf-Rf-nYx">
+                                        <rect key="frame" x="343" y="62" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="قم بتفعيل خيار &quot;منو المتصل؟&quot;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s63-BD-wW2">
+                                        <rect key="frame" x="10" y="120" width="325" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="system-switch-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="6HB-uJ-IIr">
+                                        <rect key="frame" x="343" y="111" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBC-ob-UVx">
+                                        <rect key="frame" x="56" y="166" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.1333333333" green="0.17254901959999999" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="فتح الإعدادات"/>
+                                        <connections>
+                                            <action selector="openiPhoneSettings:" destination="1FW-Et-Pxu" eventType="touchUpInside" id="53P-72-68t"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="الحماية غير مفعلة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFq-c3-d7u">
+                                <rect key="frame" x="-1" y="243" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rvM-I6-5lk"/>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="shield-icon.png" id="J9O-Zw-jlx"/>
+                    <connections>
+                        <outlet property="howToView" destination="svf-Na-ayJ" id="gL1-Pb-r6C"/>
+                        <outlet property="protectionBack" destination="wxg-vw-dTl" id="q3p-Co-slY"/>
+                        <outlet property="protectionLabel" destination="VFq-c3-d7u" id="ROM-08-Kaj"/>
+                        <outlet property="settingsBtn" destination="aBC-ob-UVx" id="3oX-XR-spK"/>
+                        <outlet property="shieldImage" destination="Wob-am-ubR" id="5gD-Jr-9qt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gaQ-iE-edb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="500" y="273"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9hi-yr-MI6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="app-background.png" width="414" height="896"/>
+        <image name="app-sec-background.png" width="414" height="896"/>
+        <image name="blacklisted-icon.png" width="55" height="55"/>
         <image name="code-img.png" width="165" height="165"/>
         <image name="contact-top-img.png" width="414" height="216"/>
         <image name="empty-ad.png" width="394" height="90"/>
@@ -955,16 +1146,23 @@ If you have any questions about this Privacy Policy, please contact us.</string>
         <image name="magnifying-glass-icon.png" width="40" height="40"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="network-background.png" width="392" height="200"/>
+        <image name="options-block-icon.png" width="40" height="40"/>
         <image name="options-copy-icon.png" width="40" height="40"/>
         <image name="options-report-icon.png" width="40" height="40"/>
         <image name="profile-img.png" width="165" height="165"/>
         <image name="scan-image.png" width="40" height="60"/>
+        <image name="security-background.png" width="414" height="896"/>
         <image name="settings-contact-icon.png" width="32" height="32"/>
         <image name="settings-icon.png" width="40" height="40"/>
         <image name="settings-privacy-icon.png" width="32" height="32"/>
         <image name="settings-profile-icon.png" width="32" height="32"/>
         <image name="settings-rate-icon.png" width="32" height="32"/>
+        <image name="shield-icon.png" width="40" height="40"/>
+        <image name="system-phone-icon.png" width="40" height="40"/>
+        <image name="system-settings-icon.png" width="40" height="40"/>
+        <image name="system-switch-icon.png" width="40" height="40"/>
         <image name="top-code-img.png" width="414" height="217"/>
+        <image name="unprotected-image.png" width="175" height="200"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
