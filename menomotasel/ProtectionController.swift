@@ -7,6 +7,8 @@
 
 import UIKit
 import CallKit
+import Alamofire
+import ContactsUI
 
 class ProtectionController: UIViewController , UITableViewDelegate, UITableViewDataSource {
     
@@ -16,13 +18,61 @@ class ProtectionController: UIViewController , UITableViewDelegate, UITableViewD
     @IBOutlet var protectionBack: UILabel!
     @IBOutlet var shieldImage: UIImageView!
     
-    private let spamNames: NSArray = ["سبام 1" ,"سبام 2"]
-    private let spamNumbers: NSArray = ["73484833","83902633"]
+    private var spamNames:[String] = []
+    private var spamNumbers:[String] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         howToView.layer.cornerRadius = 15
         settingsBtn.layer.cornerRadius = 15
+        loadSpammers()
+    }
+    
+    
+    func loadSpammers() {
+        let keyword:String = "Mohammed"
+        
+        let headers: HTTPHeaders = [
+            "UserAgent": "iPhone CFNetwork Darwin IchIJe",
+            "User-Agent": "iPhone CFNetwork Darwin IchIJe",
+            "Accept": "application/json"
+        ]
+        AF.request("\(sharedConfigurationSharedManager?.base ?? "")getNamesLinkedIn??keyword=\(keyword.toBase64())", method: .get, parameters: [:], headers: headers).response { [weak self] (response) in
+            if let jsonData = response.data {
+                do {
+                    debugPrint(jsonData)
+                    
+                    let jsonDecoder = JSONDecoder()
+                    let responseModels:[Results] = try jsonDecoder.decode([Results].self, from: jsonData)
+                    self?.spamNames = responseModels.map{ return $0.toCard().fullName ?? ""}
+                    self?.spamNumbers = responseModels.map{ return $0.toCard().phone ?? ""}
+                    // print(results)
+                    DispatchQueue.main.async {
+                        self?.reloadData()
+                    }
+                }catch {
+                    //self?.endScanning()
+                }
+            }else{
+               // self?.endScanning()
+            }
+        }
+    }
+    
+    func reloadData() {
+        
+    }
+    
+    func showReportSuccess() {
+        
+    }
+    
+    
+    func selectContactToReport() {
+        let contactPickerVC = CNContactPickerViewController()
+        contactPickerVC.delegate = self
+        present(contactPickerVC, animated: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -104,4 +154,14 @@ class ProtectionController: UIViewController , UITableViewDelegate, UITableViewD
             alpha: CGFloat(1.0)
         )
     }
+}
+
+
+extension ProtectionController:CNContactPickerDelegate {
+    func contactPicker(_ picker: CNContactPickerViewController, didSelect contact: CNContact) {
+        // handle selection
+        showReportSuccess()
+    }
+    
+    
 }

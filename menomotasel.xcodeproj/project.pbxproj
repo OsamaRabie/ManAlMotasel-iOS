@@ -163,6 +163,8 @@
 		1ED5CC412801BF6600E322D3 /* settings-contact-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED5CC322801BF6500E322D3 /* settings-contact-icon@2x.png */; };
 		1ED5CC422801BF6600E322D3 /* settings-rate-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED5CC332801BF6600E322D3 /* settings-rate-icon@3x.png */; };
 		1ED5CC442801C0D900E322D3 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5CC432801C0D900E322D3 /* SettingsController.swift */; };
+		E84EC89E293E04DE00AC6C09 /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84EC89D293E04DE00AC6C09 /* CallDirectoryHandler.swift */; };
+		E84EC8A2293E04DE00AC6C09 /* MenoMotaselDirectory.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E84EC89B293E04DE00AC6C09 /* MenoMotaselDirectory.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E87703D1293C822000D46E7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E87703D0293C822000D46E7C /* GoogleService-Info.plist */; };
 		E87703D3293C89D800D46E7C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87703D2293C89D800D46E7C /* Configuration.swift */; };
 		E87703D7293C941B00D46E7C /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E87703D5293C941A00D46E7C /* UICKeyChainStore.m */; };
@@ -184,6 +186,30 @@
 		E8F9340E293C9EF6008C3B78 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = E8F9340D293C9EF6008C3B78 /* AlamofireImage */; };
 		E8F93410293CE563008C3B78 /* FirebaseAuthUsersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9340F293CE563008C3B78 /* FirebaseAuthUsersManager.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E84EC8A0293E04DE00AC6C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA6309827FC409900851D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84EC89A293E04DE00AC6C09;
+			remoteInfo = MenoMotaselDirectory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E84EC8A3293E04DE00AC6C09 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E84EC8A2293E04DE00AC6C09 /* MenoMotaselDirectory.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C669AFCCBBB0460D2369C54 /* Pods-menomotasel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menomotasel.debug.xcconfig"; path = "Target Support Files/Pods-menomotasel/Pods-menomotasel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -346,6 +372,9 @@
 		1ED5CC432801C0D900E322D3 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		35490B6A92F0670689DE3C75 /* Pods_menomotasel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_menomotasel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0B27F99DBE72DA781952A4 /* Pods-menomotasel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menomotasel.release.xcconfig"; path = "Target Support Files/Pods-menomotasel/Pods-menomotasel.release.xcconfig"; sourceTree = "<group>"; };
+		E84EC89B293E04DE00AC6C09 /* MenoMotaselDirectory.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MenoMotaselDirectory.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84EC89D293E04DE00AC6C09 /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
+		E84EC89F293E04DE00AC6C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E87703D0293C822000D46E7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E87703D2293C89D800D46E7C /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		E87703D4293C941800D46E7C /* menomotasel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "menomotasel-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -380,6 +409,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E84EC898293E04DE00AC6C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -392,6 +428,7 @@
 				1E35F27627FD94BF0028A839 /* DroidKufi-Bold.ttf */,
 				1E35F27727FD94BF0028A839 /* DroidKufi-Regular.ttf */,
 				1EA630A227FC409900851D4F /* menomotasel */,
+				E84EC89C293E04DE00AC6C09 /* MenoMotaselDirectory */,
 				1EA630A127FC409900851D4F /* Products */,
 				28D69D07016B96CD7AB8A35C /* Pods */,
 				C99F80DE896D0EB18709C7C1 /* Frameworks */,
@@ -402,6 +439,7 @@
 			isa = PBXGroup;
 			children = (
 				1EA630A027FC409900851D4F /* menomotasel.app */,
+				E84EC89B293E04DE00AC6C09 /* MenoMotaselDirectory.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -595,6 +633,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E84EC89C293E04DE00AC6C09 /* MenoMotaselDirectory */ = {
+			isa = PBXGroup;
+			children = (
+				E84EC89D293E04DE00AC6C09 /* CallDirectoryHandler.swift */,
+				E84EC89F293E04DE00AC6C09 /* Info.plist */,
+			);
+			path = MenoMotaselDirectory;
+			sourceTree = "<group>";
+		};
 		E8F933EF293C9B92008C3B78 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -629,10 +676,12 @@
 				1EA6309C27FC409900851D4F /* Sources */,
 				1EA6309D27FC409900851D4F /* Frameworks */,
 				1EA6309E27FC409900851D4F /* Resources */,
+				E84EC8A3293E04DE00AC6C09 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E84EC8A1293E04DE00AC6C09 /* PBXTargetDependency */,
 			);
 			name = menomotasel;
 			packageProductDependencies = (
@@ -643,6 +692,23 @@
 			productReference = 1EA630A027FC409900851D4F /* menomotasel.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E84EC89A293E04DE00AC6C09 /* MenoMotaselDirectory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84EC8A6293E04DE00AC6C09 /* Build configuration list for PBXNativeTarget "MenoMotaselDirectory" */;
+			buildPhases = (
+				E84EC897293E04DE00AC6C09 /* Sources */,
+				E84EC898293E04DE00AC6C09 /* Frameworks */,
+				E84EC899293E04DE00AC6C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenoMotaselDirectory;
+			productName = MenoMotaselDirectory;
+			productReference = E84EC89B293E04DE00AC6C09 /* MenoMotaselDirectory.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -650,12 +716,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					1EA6309F27FC409900851D4F = {
 						CreatedOnToolsVersion = 13.2.1;
 						LastSwiftMigration = 1410;
+					};
+					E84EC89A293E04DE00AC6C09 = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
@@ -677,6 +746,7 @@
 			projectRoot = "";
 			targets = (
 				1EA6309F27FC409900851D4F /* menomotasel */,
+				E84EC89A293E04DE00AC6C09 /* MenoMotaselDirectory */,
 			);
 		};
 /* End PBXProject section */
@@ -836,6 +906,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E84EC899293E04DE00AC6C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -897,7 +974,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E84EC897293E04DE00AC6C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84EC89E293E04DE00AC6C09 /* CallDirectoryHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84EC8A1293E04DE00AC6C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84EC89A293E04DE00AC6C09 /* MenoMotaselDirectory */;
+			targetProxy = E84EC8A0293E04DE00AC6C09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1EA630A927FC409900851D4F /* Main.storyboard */ = {
@@ -1039,6 +1132,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C669AFCCBBB0460D2369C54 /* Pods-menomotasel.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
@@ -1075,6 +1169,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE0B27F99DBE72DA781952A4 /* Pods-menomotasel.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
@@ -1106,6 +1201,62 @@
 			};
 			name = Release;
 		};
+		E84EC8A4293E04DE00AC6C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPA494Z5LZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MenoMotaselDirectory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MenoMotaselDirectory;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meno.motasel.app.MenoMotaselDirectory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E84EC8A5293E04DE00AC6C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPA494Z5LZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MenoMotaselDirectory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MenoMotaselDirectory;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meno.motasel.app.MenoMotaselDirectory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1123,6 +1274,15 @@
 			buildConfigurations = (
 				1EA630B527FC409B00851D4F /* Debug */,
 				1EA630B627FC409B00851D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84EC8A6293E04DE00AC6C09 /* Build configuration list for PBXNativeTarget "MenoMotaselDirectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84EC8A4293E04DE00AC6C09 /* Debug */,
+				E84EC8A5293E04DE00AC6C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
