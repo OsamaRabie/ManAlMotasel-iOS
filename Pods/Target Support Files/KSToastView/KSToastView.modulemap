@@ -1,0 +1,6 @@
+framework module KSToastView {
+  umbrella header "KSToastView-umbrella.h"
+
+  export *
+  module * { export * }
+}
