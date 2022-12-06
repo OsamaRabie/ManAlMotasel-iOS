@@ -129,7 +129,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         .lightContent
     }
     
-    
     @IBAction func changeKeyboard(_ sender: Any) {
         if searchBar.keyboardType == UIKeyboardType.numberPad
         {
@@ -169,7 +168,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }, completion: nil)
     }
     
-    func startSearchTest() {
+    func startTheSearch() {
+        if (searchBar.text!.count < 8 && searchBar.keyboardType == UIKeyboardType.numberPad)
+        {
+            showStatus(text: "يجب إدخال 8 أرقام", isRed: true)
+            searchBar.becomeFirstResponder()
+            return
+        }
+        
+        guard let nameText = searchBar.text, !nameText.isEmpty
+        else {
+            showStatus(text: "اكتب شيئاً للبحث", isRed: true)
+            searchBar.becomeFirstResponder()
+            return
+        }
+        
         self.searchBar.resignFirstResponder()
         self.startScanning()
         let keyword:String = scrambleKeyWord()
@@ -207,17 +220,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     @IBAction func startSearch(_ sender: Any) {
-        if (searchBar.text!.count < 8 && searchBar.keyboardType == UIKeyboardType.numberPad)
-        {
-            showStatus(text: "يجب إدخال 8 أرقام", isRed: true)
-            return
-        }
-        self.startSearchTest()
+        self.startTheSearch()
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        self.startSearchTest()
+        self.startTheSearch()
         return false
+    }
+    
+    func showAlert(title:String,msg:String) {
+        DispatchQueue.main.async {
+            let alert = UIAlertController(title: title, message: msg, preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "حسناً", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
     }
     
     @IBAction func closeOptions(_ sender: Any) {
@@ -257,12 +273,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         isStatusOn = true
             
-        var finalText = "\("\n✓ ") \(text)"
+        var finalText = "\("\n\n✓ ") \(text)"
         //let finalText = "\("\n✖ ") \(text)"
         
         if isRed
         {
-            finalText = "\("\n ") \(text)"
+            finalText = "\("\n\n ") \(text)"
             statusLabel.backgroundColor = hexStringToUIColor(hex: "d03e3e")
         }
         else

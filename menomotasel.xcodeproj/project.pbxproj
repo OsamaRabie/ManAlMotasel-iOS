@@ -106,6 +106,12 @@
 		1EA630BB27FC4CC000851D4F /* topback-img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA630B827FC4CC000851D4F /* topback-img@3x.png */; };
 		1EA630BC27FC4CC000851D4F /* topback-img.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA630B927FC4CC000851D4F /* topback-img.png */; };
 		1EA630BD27FC4CC000851D4F /* topback-img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA630BA27FC4CC000851D4F /* topback-img@2x.png */; };
+		1EABBFCA293E7B9E00927B7F /* loading-img.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EABBFC7293E7B9C00927B7F /* loading-img.png */; };
+		1EABBFCB293E7B9E00927B7F /* loading-img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EABBFC8293E7B9D00927B7F /* loading-img@2x.png */; };
+		1EABBFCC293E7B9E00927B7F /* loading-img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EABBFC9293E7B9E00927B7F /* loading-img@3x.png */; };
+		1EABBFD0293E866900927B7F /* report-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EABBFCD293E866700927B7F /* report-icon@2x.png */; };
+		1EABBFD1293E866900927B7F /* report-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EABBFCE293E866800927B7F /* report-icon@3x.png */; };
+		1EABBFD2293E866900927B7F /* report-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EABBFCF293E866900927B7F /* report-icon.png */; };
 		1EB9AFCF27FE20BA0030672A /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9AFCE27FE20BA0030672A /* ResultsController.swift */; };
 		1EB9AFD927FE34F00030672A /* viva.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9AFD027FE34EF0030672A /* viva.png */; };
 		1EB9AFDA27FE34F00030672A /* viva@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9AFD127FE34EF0030672A /* viva@2x.png */; };
@@ -313,6 +319,12 @@
 		1EA630B827FC4CC000851D4F /* topback-img@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topback-img@3x.png"; sourceTree = "<group>"; };
 		1EA630B927FC4CC000851D4F /* topback-img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topback-img.png"; sourceTree = "<group>"; };
 		1EA630BA27FC4CC000851D4F /* topback-img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topback-img@2x.png"; sourceTree = "<group>"; };
+		1EABBFC7293E7B9C00927B7F /* loading-img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading-img.png"; sourceTree = "<group>"; };
+		1EABBFC8293E7B9D00927B7F /* loading-img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading-img@2x.png"; sourceTree = "<group>"; };
+		1EABBFC9293E7B9E00927B7F /* loading-img@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading-img@3x.png"; sourceTree = "<group>"; };
+		1EABBFCD293E866700927B7F /* report-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report-icon@2x.png"; sourceTree = "<group>"; };
+		1EABBFCE293E866800927B7F /* report-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report-icon@3x.png"; sourceTree = "<group>"; };
+		1EABBFCF293E866900927B7F /* report-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report-icon.png"; sourceTree = "<group>"; };
 		1EB9AFCE27FE20BA0030672A /* ResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsController.swift; sourceTree = "<group>"; };
 		1EB9AFD027FE34EF0030672A /* viva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viva.png; sourceTree = "<group>"; };
 		1EB9AFD127FE34EF0030672A /* viva@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "viva@2x.png"; sourceTree = "<group>"; };
@@ -474,6 +486,12 @@
 		1EA630B727FC450A00851D4F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1EABBFCF293E866900927B7F /* report-icon.png */,
+				1EABBFCD293E866700927B7F /* report-icon@2x.png */,
+				1EABBFCE293E866800927B7F /* report-icon@3x.png */,
+				1EABBFC7293E7B9C00927B7F /* loading-img.png */,
+				1EABBFC8293E7B9D00927B7F /* loading-img@2x.png */,
+				1EABBFC9293E7B9E00927B7F /* loading-img@3x.png */,
 				1E368E022937DB1D00D65BDC /* settings-profile-icon.png */,
 				1E368E012937DB1C00D65BDC /* settings-profile-icon@2x.png */,
 				1E368E002937DB1B00D65BDC /* settings-profile-icon@3x.png */,
@@ -739,8 +757,8 @@
 			);
 			mainGroup = 1EA6309727FC409900851D4F;
 			packageReferences = (
-				E87703D8293C985B00D46E7C /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				E8F9340C293C9EF6008C3B78 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */,
+				E87703D8293C985B00D46E7C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E8F9340C293C9EF6008C3B78 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 			);
 			productRefGroup = 1EA630A127FC409900851D4F /* Products */;
 			projectDirPath = "";
@@ -759,6 +777,7 @@
 			files = (
 				1E2673922801D50C00470FEB /* info-arrow-highlighted.png in Resources */,
 				1E35F27D27FD95D30028A839 /* TanseekModernProArabic-Bold.ttf in Resources */,
+				1EABBFD1293E866900927B7F /* report-icon@3x.png in Resources */,
 				1EB9AFE627FE37B20030672A /* empty-ad@2x.png in Resources */,
 				1EB9AFE027FE34F00030672A /* Ooredoo@2x.png in Resources */,
 				1EB9AFF227FE3BCD0030672A /* shield-icon@3x.png in Resources */,
@@ -767,6 +786,7 @@
 				1EB9AFDB27FE34F00030672A /* zain.png in Resources */,
 				1EA630B027FC409B00851D4F /* LaunchScreen.storyboard in Resources */,
 				1E3E0AB128006EEA00373228 /* blacklisted-icon@2x.png in Resources */,
+				1EABBFCA293E7B9E00927B7F /* loading-img.png in Resources */,
 				1E368DFF293746B300D65BDC /* code-img.png in Resources */,
 				1EB9B02327FF805D0030672A /* security-background@2x.png in Resources */,
 				1EB9AFEB27FE3A4F0030672A /* search-icon@2x.png in Resources */,
@@ -778,6 +798,7 @@
 				1ED5CC392801BF6600E322D3 /* settings-privacy-icon@3x.png in Resources */,
 				1E35F28427FD967D0028A839 /* magnifying-glass-icon.png in Resources */,
 				1EB9B01527FF6F890030672A /* system-phone-icon.png in Resources */,
+				1EABBFCB293E7B9E00927B7F /* loading-img@2x.png in Resources */,
 				1E368DE729373F9300D65BDC /* profile-img.png in Resources */,
 				1E35F27827FD94BF0028A839 /* DroidKufi-Bold.ttf in Resources */,
 				1E8C9E4127FC776400170C5D /* app-background@3x.png in Resources */,
@@ -812,9 +833,11 @@
 				1EB9AFED27FE3A4F0030672A /* search-icon.png in Resources */,
 				1E26738E2801D02100470FEB /* cobra-logo@2x.png in Resources */,
 				1E3E0AA628004F8400373228 /* scan-image@2x.png in Resources */,
+				1EABBFD2293E866900927B7F /* report-icon.png in Resources */,
 				1E35F28327FD967D0028A839 /* magnifying-glass-icon@2x.png in Resources */,
 				1EB9AFF327FE3BCD0030672A /* shield-icon@2x.png in Resources */,
 				1E3677832801968100E0B781 /* app-icon@2x.png in Resources */,
+				1EABBFCC293E7B9E00927B7F /* loading-img@3x.png in Resources */,
 				1E3E0AC5280094C000373228 /* options-copy-icon.png in Resources */,
 				1EA630BD27FC4CC000851D4F /* topback-img@2x.png in Resources */,
 				1ED5CC422801BF6600E322D3 /* settings-rate-icon@3x.png in Resources */,
@@ -875,6 +898,7 @@
 				1EB9B00827FF6CDC0030672A /* unprotected-image@3x.png in Resources */,
 				1EB9AFD927FE34F00030672A /* viva.png in Resources */,
 				1E35F27F27FD95D30028A839 /* TanseekModernProArabic-Light.ttf in Resources */,
+				1EABBFD0293E866900927B7F /* report-icon@2x.png in Resources */,
 				1E35F27E27FD95D30028A839 /* TanseekModernProArabic-Medium.ttf in Resources */,
 				1E3E0AA528004F8400373228 /* scan-image@3x.png in Resources */,
 				1E368DEC2937406F00D65BDC /* kuwait-circular.png in Resources */,
@@ -1308,7 +1332,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E87703D8293C985B00D46E7C /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		E87703D8293C985B00D46E7C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -1316,7 +1340,7 @@
 				kind = branch;
 			};
 		};
-		E8F9340C293C9EF6008C3B78 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */ = {
+		E8F9340C293C9EF6008C3B78 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
 			requirement = {
@@ -1329,12 +1353,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		E87703D9293C985B00D46E7C /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E87703D8293C985B00D46E7C /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = E87703D8293C985B00D46E7C /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 		E8F9340D293C9EF6008C3B78 /* AlamofireImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E8F9340C293C9EF6008C3B78 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */;
+			package = E8F9340C293C9EF6008C3B78 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
 		};
 /* End XCSwiftPackageProductDependency section */
