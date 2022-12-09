@@ -152,6 +152,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let musaedCrtl:MusaedAdController = storyboard?.instantiateViewController(withIdentifier: "MusaedAdController") as! MusaedAdController
         musaedCrtl.fullAd = ad
+        UserDefaults.standard.set(adVersion, forKey: "musaedAd")
+        UserDefaults.standard.synchronize()
         present(musaedCrtl, animated: true)
         
     }
