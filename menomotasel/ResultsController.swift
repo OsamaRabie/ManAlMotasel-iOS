@@ -29,12 +29,12 @@ class ResultsController: UIViewController, UITableViewDelegate, UITableViewDataS
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         resultsTableView.reloadData()
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = "ca-app-pub-2433238124854818/6729791975"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         
         let request = GADRequest()
-        GADInterstitialAd.load(withAdUnitID:"ca-app-pub-3940256099942544/4411468910",
+        GADInterstitialAd.load(withAdUnitID:"ca-app-pub-2433238124854818/6697593261",
                                request: request,
                                completionHandler: { [self] ad, error in
             if let error = error {
@@ -202,6 +202,17 @@ class ResultsController: UIViewController, UITableViewDelegate, UITableViewDataS
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         
+        let selectedResult:CardModel = searchResults[indexPath.row]
+        
+        if selectedResult.clickingActionType == .Website,
+           let urlString:String = selectedResult.website,
+           let url:URL = URL(string: urlString) {
+            
+            UIApplication.shared.open(url)
+            
+            return
+        }
+    
         var cell = tableView.cellForRow(at: indexPath)
         
         var optionsView = (cell?.contentView.viewWithTag(5))!

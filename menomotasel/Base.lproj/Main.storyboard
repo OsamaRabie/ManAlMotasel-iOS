@@ -1248,6 +1248,56 @@ If you have any questions about this Privacy Policy, please contact us.</string>
             </objects>
             <point key="canvasLocation" x="500.00000000000006" y="272.54464285714283"/>
         </scene>
+        <!--Musaed Ad Controller-->
+        <scene sceneID="GD4-j2-jOS">
+            <objects>
+                <viewController storyboardIdentifier="MusaedAdController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WfO-M3-tSe" customClass="MusaedAdController" customModule="menomotasel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cVi-51-o5Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3H-GZ-w0t">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btg-Yg-X9c">
+                                <rect key="frame" x="20" y="817" width="374" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="U0M-52-lj9"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJY-Se-Fwt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="adClicked:" destination="WfO-M3-tSe" eventType="touchUpInside" id="5h5-sA-PEA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="62h-ob-0eI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Btg-Yg-X9c" firstAttribute="bottom" secondItem="62h-ob-0eI" secondAttribute="bottom" id="Hwm-eb-JeO"/>
+                            <constraint firstItem="DJY-Se-Fwt" firstAttribute="top" secondItem="cVi-51-o5Q" secondAttribute="top" id="VPu-YA-nyw"/>
+                            <constraint firstItem="62h-ob-0eI" firstAttribute="trailing" secondItem="Btg-Yg-X9c" secondAttribute="trailing" constant="20" id="ZIk-bl-Wd8"/>
+                            <constraint firstAttribute="bottom" secondItem="DJY-Se-Fwt" secondAttribute="bottom" id="ZuF-oD-fuq"/>
+                            <constraint firstItem="Btg-Yg-X9c" firstAttribute="leading" secondItem="62h-ob-0eI" secondAttribute="leading" constant="20" id="bWx-Hu-XqN"/>
+                            <constraint firstItem="DJY-Se-Fwt" firstAttribute="leading" secondItem="62h-ob-0eI" secondAttribute="leading" id="fyc-I8-C2c"/>
+                            <constraint firstItem="DJY-Se-Fwt" firstAttribute="trailing" secondItem="62h-ob-0eI" secondAttribute="trailing" id="mxh-ok-0S9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="adButton" destination="Btg-Yg-X9c" id="EBf-6i-ufi"/>
+                        <outlet property="adImage" destination="J3H-GZ-w0t" id="1W7-MG-6fP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RBk-Wa-VNc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1505.7971014492755" y="943.52678571428567"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9hi-yr-MI6"/>

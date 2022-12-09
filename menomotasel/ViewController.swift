@@ -14,9 +14,9 @@ import GoogleMobileAds
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
-    private let recentsNames: NSArray = ["متصل 1","متصل 2","متصل 3"]
-    private let recentsNumbers: NSArray = ["12312312","22233322","12345678"]
-    private let imagesArray: NSArray = ["zain.png","viva.png","Ooredoo.png"]
+    private var searchHistoryArray:[String] {
+        return UserDefaults.standard.stringArray(forKey: "searchHistory") ?? .init()
+    }
     @IBOutlet var searchBar: UITextField!
     @IBOutlet var scanImage: UIImageView!
     @IBOutlet var searchButton: UIButton!
@@ -62,7 +62,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         view.addGestureRecognizer(tap)
         
         
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = "ca-app-pub-2433238124854818/1590885014"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         
@@ -92,6 +92,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 guard let nonNullData = data else { return }
                 let configuration = try? JSONDecoder().decode(Configuration.self, from: nonNullData)
                 sharedConfigurationSharedManager = configuration
+                self.checkMusaedAd()
             }
         }
     }
@@ -143,8 +144,35 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         searchBar.becomeFirstResponder()
     }
     
+    func checkMusaedAd() {
+        guard let ad:Fullad = sharedConfigurationSharedManager?.fullad,
+              let adVersion:String = ad.adsVersion,
+              adVersion != UserDefaults.standard.value(forKey: "musaedAd") as? String ?? "-1"
+               else { return }
+        
+        let musaedCrtl:MusaedAdController = storyboard?.instantiateViewController(withIdentifier: "MusaedAdController") as! MusaedAdController
+        musaedCrtl.fullAd = ad
+        present(musaedCrtl, animated: true)
+        
+    }
+    
     @objc func openSearch() {
         endScanning()
+        if searchResults.count > 0,
+           let cardModel:CardModel = searchResults.first,
+           let name:String = cardModel.fullName,
+           let phone:String = cardModel.phone,
+           let img:String = cardModel.imageURL {
+            
+            var searchHistoryArray:[String] = UserDefaults.standard.stringArray(forKey: "searchHistory") ?? .init()
+            searchHistoryArray.append("\(name)###\(phone)###\(img)")
+            if searchHistoryArray.count > 10 {
+                searchHistoryArray = Array(searchHistoryArray.uniqued().prefix(upTo: 10))
+            }
+            UserDefaults.standard.set(searchHistoryArray, forKey: "searchHistory")
+            UserDefaults.standard.synchronize()
+            
+        }
         self.performSegue(withIdentifier: "resultsSeg", sender:self)
     }
     
@@ -182,10 +210,43 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             searchBar.becomeFirstResponder()
             return
         }
-        
+        self.searchResults = []
         self.searchBar.resignFirstResponder()
         self.startScanning()
         let keyword:String = scrambleKeyWord()
+        
+        // Now fetch if by the ID
+        let db = Firestore.firestore()
+        // Create a reference to the users collection
+        let usersRef = db.collection("Users")
+        // Create a query against the collection. to fetch the user document with the same UI of the logged in user
+        
+        let Formatter = NumberFormatter()
+        Formatter.locale = NSLocale(localeIdentifier: "EN") as Locale?
+        
+        let final:String = (Formatter.number(from: keyword) ?? 0).stringValue
+        let phoneBool:Bool = final != "0" && final.trimmingCharacters(in: CharacterSet(charactersIn: "0123456789").inverted) == final
+        
+        usersRef.whereField(phoneBool ? "phone" : "displayName", isEqualTo:keyword).getDocuments { snapshot, error in
+            // Make sure no errors happened
+            if let _ = error {
+                
+                return
+            }
+            // Make sure is a document with the provided id
+            if let snapshot = snapshot,
+               snapshot.documents.count > 0 {
+                var cardResults:[CardModel] = snapshot.documents.map({ document in
+                    let userData:[String:String]? = document.data() as? [String:String] ?? [:]
+                    var cardModel:CardModel = CardModel.init(countryCode: userData?["country"], fullName: userData?["displayName"], imageURL: userData?["photoURL"], phone: userData?["phone"], website: userData?["website"], email: "", company: userData?["company"], sharingType: .All, cardID: userData?["uid"], clickingActionType: .OpenCard)
+                    return cardModel
+                })
+                cardResults.append(contentsOf: self.searchResults)
+                self.searchResults = cardResults
+                print(cardResults)
+            }
+        }
+        
         
         let headers: HTTPHeaders = [
             "UserAgent": "iPhone CFNetwork Darwin IchIJe",
@@ -199,7 +260,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     
                     let jsonDecoder = JSONDecoder()
                     let responseModels:[Results] = try jsonDecoder.decode([Results].self, from: jsonData)
-                    self?.searchResults = responseModels.map{ return $0.toCard()}
+                    self?.searchResults.append(contentsOf:responseModels.map{ return $0.toCard()})
                     // print(results)
                     DispatchQueue.main.async {
                         self?.openSearch()
@@ -261,7 +322,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func copTheNumber() {
-        UIPasteboard.general.string = "\(recentsNumbers[currentIndx])"
+        let model:[String] = searchHistoryArray[currentIndx].components(separatedBy: "###")
+        UIPasteboard.general.string = "\(model[1])"
         self.showStatus(text: "تم نسخ الرقم بنجاح", isRed: false)
     }
     
@@ -327,7 +389,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Name: \(recentsNames[indexPath.row])")
         
         var cell = tableView.cellForRow(at: indexPath)
         
@@ -364,12 +425,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            return recentsNames.count
+            return searchHistoryArray.count
         }
 
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: "recentCell", for: indexPath as IndexPath)
-            
+            let model:[String] = searchHistoryArray[indexPath.row].components(separatedBy: "###")
             let nameLabel = (cell.contentView.viewWithTag(1)) as! UILabel
             let numberLabel = (cell.contentView.viewWithTag(2)) as! UILabel
             let providerImage = (cell.contentView.viewWithTag(3)) as! UIImageView
@@ -385,9 +446,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 cell.viewWithTag(6)?.isHidden = false
             }
             
-            nameLabel.text = "\(recentsNames[indexPath.row])"
-            numberLabel.text = "\(recentsNumbers[indexPath.row])"
-            providerImage.image = UIImage(named:"\(imagesArray[indexPath.row])")
+            nameLabel.text = "\(model[0])"
+            numberLabel.text = "\(model[1])"
+            providerImage.af.setImage(withURL: URL(string: model[2])!)
             
             providerImage.layer.cornerRadius = providerImage.frame.size.width/2
             providerImage.clipsToBounds = true
@@ -541,5 +602,13 @@ extension Array {
         // 4
         return self.enumerated().sorted(by: { shift($0.offset) < shift($1.offset) }).map { $0.element }
         
+    }
+}
+
+
+extension Sequence where Element: Hashable {
+    func uniqued() -> [Element] {
+        var set = Set<Element>()
+        return filter { set.insert($0).inserted }
     }
 }

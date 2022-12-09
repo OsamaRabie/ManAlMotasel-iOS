@@ -7,17 +7,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B40D0880-BE1B-4A03-9173-9909929FDFB9"
+            uuid = "2F24085F-6E1B-44C0-8C61-D07E085BAB45"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "menomotasel/ResultsController.swift"
+            filePath = "menomotasel/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "loadFireBaseRemoteConfig()"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "checkMusaedAd()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F24085F-6E1B-44C0-8C61-D07E085BAB45 - ae49adb6f740ebc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "menomotasel.ViewController.checkMusaedAd() -&gt; ()"
+                  moduleName = "menomotasel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osamarabie/Desktop/Arabdevs/ManAlMotasel-iOS/menomotasel/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "1985">
+               </Location>
+               <Location
+                  uuid = "2F24085F-6E1B-44C0-8C61-D07E085BAB45 - ae49adb6f740ebc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "menomotasel.ViewController.checkMusaedAd() -&gt; ()"
+                  moduleName = "menomotasel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osamarabie/Desktop/Arabdevs/ManAlMotasel-iOS/menomotasel/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "2111">
+               </Location>
+               <Location
+                  uuid = "2F24085F-6E1B-44C0-8C61-D07E085BAB45 - ae49adb6f740ebc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "menomotasel.ViewController.checkMusaedAd() -&gt; ()"
+                  moduleName = "menomotasel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osamarabie/Desktop/Arabdevs/ManAlMotasel-iOS/menomotasel/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "2890">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

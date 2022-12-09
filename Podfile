@@ -17,4 +17,5 @@ pod 'Firebase/InAppMessaging'
 pod 'Firebase/Analytics'
 pod 'Firebase/RemoteConfig'
 pod 'KSToastView', '0.5.7'
+pod 'SwiftyGif'
 end

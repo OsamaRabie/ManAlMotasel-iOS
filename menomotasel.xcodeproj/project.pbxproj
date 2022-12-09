@@ -169,6 +169,7 @@
 		1ED5CC412801BF6600E322D3 /* settings-contact-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED5CC322801BF6500E322D3 /* settings-contact-icon@2x.png */; };
 		1ED5CC422801BF6600E322D3 /* settings-rate-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED5CC332801BF6600E322D3 /* settings-rate-icon@3x.png */; };
 		1ED5CC442801C0D900E322D3 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5CC432801C0D900E322D3 /* SettingsController.swift */; };
+		E84B8BEB294313DD00DFCDD1 /* MusaedAdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B8BEA294313DD00DFCDD1 /* MusaedAdController.swift */; };
 		E84EC89E293E04DE00AC6C09 /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84EC89D293E04DE00AC6C09 /* CallDirectoryHandler.swift */; };
 		E84EC8A2293E04DE00AC6C09 /* MenoMotaselDirectory.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E84EC89B293E04DE00AC6C09 /* MenoMotaselDirectory.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E87703D1293C822000D46E7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E87703D0293C822000D46E7C /* GoogleService-Info.plist */; };
@@ -384,6 +385,7 @@
 		1ED5CC432801C0D900E322D3 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		35490B6A92F0670689DE3C75 /* Pods_menomotasel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_menomotasel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0B27F99DBE72DA781952A4 /* Pods-menomotasel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menomotasel.release.xcconfig"; path = "Target Support Files/Pods-menomotasel/Pods-menomotasel.release.xcconfig"; sourceTree = "<group>"; };
+		E84B8BEA294313DD00DFCDD1 /* MusaedAdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusaedAdController.swift; sourceTree = "<group>"; };
 		E84EC89B293E04DE00AC6C09 /* MenoMotaselDirectory.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MenoMotaselDirectory.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		E84EC89D293E04DE00AC6C09 /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
 		E84EC89F293E04DE00AC6C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -479,6 +481,7 @@
 				1EA630AE27FC409B00851D4F /* LaunchScreen.storyboard */,
 				1EA630B127FC409B00851D4F /* Info.plist */,
 				E87703D4293C941800D46E7C /* menomotasel-Bridging-Header.h */,
+				E84B8BEA294313DD00DFCDD1 /* MusaedAdController.swift */,
 			);
 			path = menomotasel;
 			sourceTree = "<group>";
@@ -990,6 +993,7 @@
 				1E368E092937DD1D00D65BDC /* OTPController.swift in Sources */,
 				1ED5CC442801C0D900E322D3 /* SettingsController.swift in Sources */,
 				1E2673A62801FF2D00470FEB /* ProController.swift in Sources */,
+				E84B8BEB294313DD00DFCDD1 /* MusaedAdController.swift in Sources */,
 				E8F93400293C9BAC008C3B78 /* Info.swift in Sources */,
 				E8F9340B293C9BD7008C3B78 /* CardModel.swift in Sources */,
 				E87703D7293C941B00D46E7C /* UICKeyChainStore.m in Sources */,
