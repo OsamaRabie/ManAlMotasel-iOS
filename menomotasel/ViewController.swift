@@ -127,6 +127,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewWillAppear(animated)
         setNeedsStatusBarAppearanceUpdate()
         self.tabBarController?.tabBar.tintColor = hexStringToUIColor(hex: "2B5E8E")
+        
+        if searchHistoryArray.count > 0
+        {
+            resultsLabel.isHidden = false
+            clearBtn.isHidden = false
+        }
+        else
+        {
+            resultsLabel.isHidden = true
+            clearBtn.isHidden = true
+        }
     }
     override var preferredStatusBarStyle: UIStatusBarStyle {
         .lightContent
