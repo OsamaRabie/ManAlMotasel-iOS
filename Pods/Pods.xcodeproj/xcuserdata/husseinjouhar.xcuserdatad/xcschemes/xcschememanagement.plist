@@ -193,6 +193,11 @@
 			<key>orderHint</key>
 			<integer>32</integer>
 		</dict>
+		<key>SwiftyGif.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
 		<key>abseil.xcscheme</key>
 		<dict>
 			<key>isShown</key>

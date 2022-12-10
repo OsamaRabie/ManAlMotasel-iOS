@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     private var searchHistoryArray:[String] {
         return UserDefaults.standard.stringArray(forKey: "searchHistory") ?? .init()
     }
+    @IBOutlet var clearBtn: UIButton!
     @IBOutlet var searchBar: UITextField!
     @IBOutlet var scanImage: UIImageView!
     @IBOutlet var searchButton: UIButton!
@@ -24,6 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var statusLabel: UILabel!
     @IBOutlet var searchToolBar: UIToolbar!
     @IBOutlet var searchImg: UIImageView!
+    @IBOutlet var resultsLabel: UILabel!
     @IBOutlet var switchButton: UIBarButtonItem!
     
     @IBOutlet weak var bannerView: GADBannerView!
@@ -128,6 +130,42 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     override var preferredStatusBarStyle: UIStatusBarStyle {
         .lightContent
+    }
+    
+    
+    @IBAction func clearTheLog(_ sender: Any) {
+        let action = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+
+        action.addAction(UIAlertAction(title: "حذف السجل", style: .destructive , handler:{ (UIAlertAction)in
+            self.confirmClearAll()
+            }))
+        
+        action.addAction(UIAlertAction(title: "إلغاء", style: .cancel, handler:{ (UIAlertAction)in
+            //
+            }))
+            
+            //uncomment for iPad Support
+            //alert.popoverPresentationController?.sourceView = self.view
+
+            self.present(action, animated: true, completion: {
+                print("completion block")
+            })
+    }
+    
+    func confirmClearAll() {
+        let alert = UIAlertController(title: "حذف سجل البحث", message: "هل أنت متأكد من رغبتك بحذف سجل البحث؟", preferredStyle: UIAlertController.Style.alert)
+        
+        alert.addAction(UIAlertAction(title: "حذف السجل", style: UIAlertAction.Style.destructive, handler: clearLogNow))
+        
+        alert.addAction(UIAlertAction(title: "إلغاء", style: UIAlertAction.Style.cancel, handler: nil))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func clearLogNow(alert: UIAlertAction){
+        UserDefaults.standard.removeObject(forKey: "searchHistory")
+        UserDefaults.standard.synchronize()
+        tableView.reloadData()
     }
     
     @IBAction func changeKeyboard(_ sender: Any) {
@@ -427,6 +465,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            if searchHistoryArray.count > 0
+            {
+                resultsLabel.isHidden = false
+                clearBtn.isHidden = false
+            }
+            else
+            {
+                resultsLabel.isHidden = true
+                clearBtn.isHidden = true
+            }
+            
             return searchHistoryArray.count
         }
 

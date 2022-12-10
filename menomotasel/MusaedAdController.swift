@@ -14,10 +14,14 @@ class MusaedAdController: UIViewController {
     @IBOutlet weak var adImage: UIImageView!
     @IBOutlet weak var adButton: UIButton!
     
+    @IBOutlet var bigAdBtn: UIButton!
+    
     var fullAd:Fullad?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        adButton.layer.cornerRadius = 15
 
         guard let fullAd = fullAd else {
             dismiss(animated: true)
