@@ -22,6 +22,8 @@ class MusaedAdController: UIViewController {
         super.viewDidLoad()
         
         adButton.layer.cornerRadius = 15
+        
+        bigAdBtn.setTitle("", for: .normal)
 
         guard let fullAd = fullAd else {
             dismiss(animated: true)
