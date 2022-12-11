@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		18A7701B27FC97FCE4D55364 /* Pods_menomotasel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35490B6A92F0670689DE3C75 /* Pods_menomotasel.framework */; };
+		1E14E3E129466A280090A467 /* empty-log@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E14E3DE29466A250090A467 /* empty-log@2x.png */; };
+		1E14E3E229466A280090A467 /* empty-log.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E14E3DF29466A260090A467 /* empty-log.png */; };
+		1E14E3E329466A280090A467 /* empty-log@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E14E3E029466A270090A467 /* empty-log@3x.png */; };
 		1E26738C2801D02100470FEB /* cobra-logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2673892801D02000470FEB /* cobra-logo@3x.png */; };
 		1E26738D2801D02100470FEB /* cobra-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E26738A2801D02100470FEB /* cobra-logo.png */; };
 		1E26738E2801D02100470FEB /* cobra-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E26738B2801D02100470FEB /* cobra-logo@2x.png */; };
@@ -220,6 +223,9 @@
 
 /* Begin PBXFileReference section */
 		0C669AFCCBBB0460D2369C54 /* Pods-menomotasel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menomotasel.debug.xcconfig"; path = "Target Support Files/Pods-menomotasel/Pods-menomotasel.debug.xcconfig"; sourceTree = "<group>"; };
+		1E14E3DE29466A250090A467 /* empty-log@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty-log@2x.png"; sourceTree = "<group>"; };
+		1E14E3DF29466A260090A467 /* empty-log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty-log.png"; sourceTree = "<group>"; };
+		1E14E3E029466A270090A467 /* empty-log@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty-log@3x.png"; sourceTree = "<group>"; };
 		1E2673892801D02000470FEB /* cobra-logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cobra-logo@3x.png"; sourceTree = "<group>"; };
 		1E26738A2801D02100470FEB /* cobra-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cobra-logo.png"; sourceTree = "<group>"; };
 		1E26738B2801D02100470FEB /* cobra-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cobra-logo@2x.png"; sourceTree = "<group>"; };
@@ -489,6 +495,9 @@
 		1EA630B727FC450A00851D4F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1E14E3DF29466A260090A467 /* empty-log.png */,
+				1E14E3DE29466A250090A467 /* empty-log@2x.png */,
+				1E14E3E029466A270090A467 /* empty-log@3x.png */,
 				1EABBFCF293E866900927B7F /* report-icon.png */,
 				1EABBFCD293E866700927B7F /* report-icon@2x.png */,
 				1EABBFCE293E866800927B7F /* report-icon@3x.png */,
@@ -795,6 +804,7 @@
 				1EB9AFEB27FE3A4F0030672A /* search-icon@2x.png in Resources */,
 				1ED5CC3C2801BF6600E322D3 /* info-arrow.png in Resources */,
 				1ED5CC3F2801BF6600E322D3 /* settings-privacy-icon@2x.png in Resources */,
+				1E14E3E229466A280090A467 /* empty-log.png in Resources */,
 				1E368E032937DB1D00D65BDC /* settings-profile-icon@3x.png in Resources */,
 				1EB9AFE527FE37B20030672A /* empty-ad.png in Resources */,
 				1EB9AFDC27FE34F00030672A /* Ooredoo@3x.png in Resources */,
@@ -817,6 +827,7 @@
 				1E368DEB2937406F00D65BDC /* kuwait-circular@2x.png in Resources */,
 				1ED5CC352801BF6600E322D3 /* settings-bell-icon@2x.png in Resources */,
 				1E3E0AC0280094C000373228 /* options-block-icon.png in Resources */,
+				1E14E3E329466A280090A467 /* empty-log@3x.png in Resources */,
 				1EB9B02427FF805D0030672A /* security-background@3x.png in Resources */,
 				1EB9B00A27FF6CDC0030672A /* unprotected-image@2x.png in Resources */,
 				1EB9AFE127FE34F00030672A /* viva@3x.png in Resources */,
@@ -921,6 +932,7 @@
 				1E3E0AC1280094C000373228 /* options-block-icon@3x.png in Resources */,
 				1ED5CC412801BF6600E322D3 /* settings-contact-icon@2x.png in Resources */,
 				1EA630BC27FC4CC000851D4F /* topback-img.png in Resources */,
+				1E14E3E129466A280090A467 /* empty-log@2x.png in Resources */,
 				1EA630AB27FC409900851D4F /* Main.storyboard in Resources */,
 				1ED5CC402801BF6600E322D3 /* settings-bell-icon@3x.png in Resources */,
 				1E368DFE293746B300D65BDC /* code-img@2x.png in Resources */,
@@ -1184,7 +1196,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = menomotasel/menomotasel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = RPA494Z5LZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = menomotasel/Info.plist;
@@ -1224,7 +1236,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = menomotasel/menomotasel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = RPA494Z5LZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = menomotasel/Info.plist;
@@ -1259,7 +1271,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = RPA494Z5LZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MenoMotaselDirectory/Info.plist;
@@ -1287,7 +1299,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = RPA494Z5LZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MenoMotaselDirectory/Info.plist;

@@ -434,7 +434,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تبليغ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJX-gd-UX1">
-                                                            <rect key="frame" x="196" y="44" width="84" height="34"/>
+                                                            <rect key="frame" x="196" y="44" width="83" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -557,6 +557,10 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                     <action selector="clearTheLog:" destination="mxO-qr-PpB" eventType="touchUpInside" id="SaT-pY-F1E"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="empty-log.png" translatesAutoresizingMaskIntoConstraints="NO" id="xap-f5-pXY">
+                                <rect key="frame" x="156" y="615" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wRO-MV-ePV"/>
                         <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -565,6 +569,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                     <connections>
                         <outlet property="bannerView" destination="VTS-of-jkI" id="rIZ-yT-aYZ"/>
                         <outlet property="clearBtn" destination="fPO-Or-fUn" id="fGB-3S-7j6"/>
+                        <outlet property="emptyImg" destination="xap-f5-pXY" id="iwM-8J-TNJ"/>
                         <outlet property="resultsLabel" destination="I2m-I6-GoP" id="X2v-rv-DyB"/>
                         <outlet property="scanImage" destination="gr9-va-plF" id="Ksx-GS-b7B"/>
                         <outlet property="searchBar" destination="crS-U3-RYb" id="ZQo-zK-7np"/>
@@ -1310,6 +1315,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
         <image name="code-img.png" width="165" height="165"/>
         <image name="contact-top-img.png" width="414" height="216"/>
         <image name="empty-ad.png" width="394" height="90"/>
+        <image name="empty-log.png" width="100" height="100"/>
         <image name="gear" catalog="system" width="128" height="122"/>
         <image name="info-arrow-highlighted.png" width="13" height="13"/>
         <image name="info-arrow.png" width="13" height="13"/>

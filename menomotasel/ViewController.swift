@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     private var searchHistoryArray:[String] {
         return UserDefaults.standard.stringArray(forKey: "searchHistory") ?? .init()
     }
+    @IBOutlet var emptyImg: UIImageView!
     @IBOutlet var clearBtn: UIButton!
     @IBOutlet var searchBar: UITextField!
     @IBOutlet var scanImage: UIImageView!
@@ -68,6 +69,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         bannerView.load(GADRequest())
         
         NotificationCenter.default.addObserver(self, selector: #selector(self.refreshRecent(_:)), name: NSNotification.Name(rawValue: "refreshRecentLog"), object: nil)
+        
+        emptyImg.center = tableView.center
         
         loadFirebaseData()
     }
@@ -135,13 +138,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         if searchHistoryArray.count > 0
         {
-            resultsLabel.text = "سجل عمليات البحث"
             clearBtn.isHidden = false
+            emptyImg.isHidden = true
         }
         else
         {
-            resultsLabel.text = "سجل عمليات البحث فارغ"
             clearBtn.isHidden = true
+            emptyImg.isHidden = false
         }
         
         tableView.reloadData()
@@ -149,7 +152,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override var preferredStatusBarStyle: UIStatusBarStyle {
         .lightContent
     }
-    
     
     @IBAction func clearTheLog(_ sender: Any) {
         let action = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
@@ -485,13 +487,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             if searchHistoryArray.count > 0
             {
-                resultsLabel.text = "سجل عمليات البحث"
                 clearBtn.isHidden = false
+                emptyImg.isHidden = true
             }
             else
             {
-                resultsLabel.text = "سجل عمليات البحث فارغ"
                 clearBtn.isHidden = true
+                emptyImg.isHidden = false
             }
             
             return searchHistoryArray.count

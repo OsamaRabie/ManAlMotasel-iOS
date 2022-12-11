@@ -169,6 +169,7 @@ class CreateAccountController: UIViewController,UINavigationControllerDelegate ,
     
     @IBAction func skipRegistration(_ sender: Any) {
         UserDefaults.standard.set(true, forKey: "isAccountFinished")
+        UserDefaults.standard.synchronize()
         self.dismiss(animated: true, completion: nil)
     }
     
