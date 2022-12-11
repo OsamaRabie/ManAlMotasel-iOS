@@ -61,6 +61,7 @@ class ResultsController: UIViewController, UITableViewDelegate, UITableViewDataS
                 print("Config fetched!")
                 self?.remoteConfig?.activate { changed, error in
                     guard let imageUrl:String = self?.remoteConfig?.configValue(forKey: "searchImageLink").stringValue,
+                          imageUrl != "",
                           let clickUrl:String = self?.remoteConfig?.configValue(forKey: "searchAdLink").stringValue else {
                         return
                     }
