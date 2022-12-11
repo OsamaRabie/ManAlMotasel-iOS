@@ -68,6 +68,7 @@ class ResultsController: UIViewController, UITableViewDelegate, UITableViewDataS
                     self?.adLink = clickUrl
                     DispatchQueue.main.async {
                         self?.adButton.af.setBackgroundImage(for: .normal, url: URL(string: imageUrl)!)
+                        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "refreshRecentLog"), object: nil, userInfo: nil)
                     }
                 }
             } else {

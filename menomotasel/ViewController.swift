@@ -51,7 +51,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         searchButton.clipsToBounds = true
         searchButton.layer.cornerRadius = 15
         searchButton.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
-
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
             self.searchBar.becomeFirstResponder()
@@ -68,7 +67,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         
+        NotificationCenter.default.addObserver(self, selector: #selector(self.refreshRecent(_:)), name: NSNotification.Name(rawValue: "refreshRecentLog"), object: nil)
+        
         loadFirebaseData()
+    }
+    
+    @objc func refreshRecent(_ notification: NSNotification) {
+        tableView.reloadData()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -130,12 +135,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         if searchHistoryArray.count > 0
         {
-            resultsLabel.isHidden = false
+            resultsLabel.text = "سجل عمليات البحث"
             clearBtn.isHidden = false
         }
         else
         {
-            resultsLabel.isHidden = true
+            resultsLabel.text = "سجل عمليات البحث فارغ"
             clearBtn.isHidden = true
         }
         
@@ -480,12 +485,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             if searchHistoryArray.count > 0
             {
-                resultsLabel.isHidden = false
+                resultsLabel.text = "سجل عمليات البحث"
                 clearBtn.isHidden = false
             }
             else
             {
-                resultsLabel.isHidden = true
+                resultsLabel.text = "سجل عمليات البحث فارغ"
                 clearBtn.isHidden = true
             }
             
