@@ -42,6 +42,9 @@ class CreateAccountController: UIViewController,UINavigationControllerDelegate ,
         cardModel.imageURL = "https://firebasestorage.googleapis.com/v0/b/menomotaselq8.appspot.com/o/images%2Fapp-icon.png?alt=media&token=8e339179-8cf8-4427-9178-c17752e74d9c"
         preloadData()
         self.hideKeyboardWhenTappedAround()
+        
+        UserDefaults.standard.set(true, forKey: "isAccountFinished")
+        UserDefaults.standard.synchronize()
     }
     
     func preloadData() {

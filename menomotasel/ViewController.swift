@@ -138,6 +138,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             resultsLabel.isHidden = true
             clearBtn.isHidden = true
         }
+        
+        tableView.reloadData()
     }
     override var preferredStatusBarStyle: UIStatusBarStyle {
         .lightContent
