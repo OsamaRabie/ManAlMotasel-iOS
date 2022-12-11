@@ -210,7 +210,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @objc func openSearch() {
         endScanning()
         if searchResults.count > 0,
-           let cardModel:CardModel = searchResults.first,
+           let cardModel:CardModel = searchResults.first(where: { $0.clickingActionType == .OpenCard }),
            let name:String = cardModel.fullName,
            let phone:String = cardModel.phone,
            let img:String = cardModel.imageURL {

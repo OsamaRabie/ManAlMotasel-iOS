@@ -18,4 +18,16 @@ pod 'Firebase/Analytics'
 pod 'Firebase/RemoteConfig'
 pod 'KSToastView', '0.5.7'
 pod 'SwiftyGif'
+
+
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings["DEVELOPMENT_TEAM"] = "RPA494Z5LZ"
+      end
+    end
+  end
+end
+
 end
