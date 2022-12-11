@@ -77,6 +77,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @objc func refreshRecent(_ notification: NSNotification) {
         tableView.reloadData()
+        print("refresh..")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -165,7 +166,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }))
             
             //uncomment for iPad Support
-            //alert.popoverPresentationController?.sourceView = self.view
+        action.popoverPresentationController?.sourceView = clearBtn
 
             self.present(action, animated: true, completion: {
                 print("completion block")

@@ -82,7 +82,7 @@ class SettingsController: UITableViewController,MFMailComposeViewControllerDeleg
                         }))
                         
                         //uncomment for iPad Support
-                        //alert.popoverPresentationController?.sourceView = self.view
+                    action.popoverPresentationController?.sourceView = cell1
 
                         self.present(action, animated: true, completion: {
                             print("completion block")
