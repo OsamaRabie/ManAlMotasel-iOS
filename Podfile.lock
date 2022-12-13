@@ -596,6 +596,7 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
+  - AJMessage (1.2.2)
   - BoringSSL-GRPC (0.0.24):
     - BoringSSL-GRPC/Implementation (= 0.0.24)
     - BoringSSL-GRPC/Interface (= 0.0.24)
@@ -827,6 +828,7 @@ PODS:
   - SwiftyGif (5.4.3)
 
 DEPENDENCIES:
+  - AJMessage
   - Firebase
   - Firebase/Analytics
   - Firebase/Auth
@@ -846,6 +848,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - abseil
+    - AJMessage
     - BoringSSL-GRPC
     - Cache
     - Firebase
@@ -883,6 +886,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   abseil: ebe5b5529fb05d93a8bdb7951607be08b7fa71bc
+  AJMessage: d6f1920c02224a117d0d5079ff8648f70deecfb1
   BoringSSL-GRPC: 3175b25143e648463a56daeaaa499c6cb86dad33
   Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
   Firebase: a3ea7eba4382afd83808376edb99acdaff078dcf
@@ -918,6 +922,6 @@ SPEC CHECKSUMS:
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   SwiftyGif: 6c3eafd0ce693cad58bb63d2b2fb9bacb8552780
 
-PODFILE CHECKSUM: 2c2be4f74a1636d5e7c56017789a8a958c8f7813
+PODFILE CHECKSUM: ddb7c0ef5a6826f6f65fc9c356bcef108573cc50
 
 COCOAPODS: 1.11.2

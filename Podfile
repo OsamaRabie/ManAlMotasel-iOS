@@ -21,6 +21,7 @@ pod 'SwiftyGif'
 pod 'FSnapChatLoading'
 pod 'Imaginary'
 pod 'moa'
+pod 'AJMessage'
 
 
 post_install do |installer|

@@ -198,7 +198,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aRC-Ov-CRH">
-                                <rect key="frame" x="15" y="-2" width="375" height="896"/>
+                                <rect key="frame" x="16" y="-2" width="374" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <string key="text">Privacy Policy
@@ -336,12 +336,12 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="12P-Jy-44D">
-                                <rect key="frame" x="-6" y="-3" width="419" height="843"/>
+                                <rect key="frame" x="-5" y="-3" width="418" height="843"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rf-Wd-J7z">
-                                <rect key="frame" x="-6" y="0.0" width="419" height="186"/>
+                                <rect key="frame" x="-5" y="0.0" width="418" height="186"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.070588235289999995" green="0.3294117647" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -356,11 +356,11 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="network-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="ufc-Ir-4Af">
-                                <rect key="frame" x="-6" y="0.0" width="419" height="186"/>
+                                <rect key="frame" x="-5" y="0.0" width="418" height="186"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="بحث عن اسم أو رقم" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="crS-U3-RYb">
-                                <rect key="frame" x="122" y="102" width="235" height="60"/>
+                                <rect key="frame" x="123" y="102" width="234" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -371,11 +371,11 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </connections>
                             </textField>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scan-image.png" translatesAutoresizingMaskIntoConstraints="NO" id="gr9-va-plF">
-                                <rect key="frame" x="244" y="102" width="41" height="60"/>
+                                <rect key="frame" x="245" y="102" width="40" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vl-Jr-Nc8">
-                                <rect key="frame" x="4" y="102" width="118" height="60"/>
+                                <rect key="frame" x="4" y="102" width="119" height="60"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
@@ -388,23 +388,23 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="75" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uMi-Pf-KhV">
-                                <rect key="frame" x="4" y="487" width="396" height="353"/>
+                                <rect key="frame" x="4" y="487" width="397" height="353"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="recentCell" rowHeight="75" id="sWm-ey-sap">
-                                        <rect key="frame" x="0.0" y="50" width="396" height="75"/>
+                                        <rect key="frame" x="0.0" y="50" width="397" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sWm-ey-sap" id="Aca-sh-S6I">
-                                            <rect key="frame" x="0.0" y="0.0" width="396" height="75"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="397" height="75"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view clipsSubviews="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vll-uF-tRo">
-                                                    <rect key="frame" x="0.0" y="0.0" width="396" height="75"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="397" height="75"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmb-Wo-un1">
-                                                            <rect key="frame" x="190" y="0.0" width="96" height="75"/>
+                                                            <rect key="frame" x="191" y="0.0" width="96" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.91897416109999996" green="0.26964712140000002" blue="0.64076497200000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -413,7 +413,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jck-7u-aE8">
-                                                            <rect key="frame" x="287" y="0.0" width="109" height="75"/>
+                                                            <rect key="frame" x="288" y="0.0" width="109" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -426,7 +426,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXO-BP-bwy">
-                                                            <rect key="frame" x="0.0" y="0.0" width="94" height="75"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="95" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="0.51943585049999996" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -435,7 +435,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تبليغ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJX-gd-UX1">
-                                                            <rect key="frame" x="196" y="44" width="83" height="34"/>
+                                                            <rect key="frame" x="197" y="44" width="83" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -443,7 +443,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="نسخ الرقم" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjT-ZE-2nZ">
-                                                            <rect key="frame" x="7" y="41" width="81" height="34"/>
+                                                            <rect key="frame" x="7" y="41" width="82" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -451,7 +451,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-report-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="6tl-iH-15L">
-                                                            <rect key="frame" x="223" y="8" width="40" height="40"/>
+                                                            <rect key="frame" x="224" y="8" width="40" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-copy-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="rYb-Kk-Xkk">
@@ -459,7 +459,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74H-Xb-NfV">
-                                                            <rect key="frame" x="95" y="0.0" width="94" height="75"/>
+                                                            <rect key="frame" x="96" y="0.0" width="94" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -468,7 +468,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="حظر" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgC-xy-DoG">
-                                                            <rect key="frame" x="100" y="41" width="84" height="34"/>
+                                                            <rect key="frame" x="101" y="41" width="84" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -476,32 +476,32 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-block-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="CQB-rH-e88">
-                                                            <rect key="frame" x="122" y="7" width="40" height="40"/>
+                                                            <rect key="frame" x="123" y="7" width="40" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
                                                 <view tag="6" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hyB-1w-KcO">
-                                                    <rect key="frame" x="0.0" y="0.0" width="396" height="75"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="397" height="75"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdb-Gg-6cu">
-                                                            <rect key="frame" x="92" y="8" width="229" height="30"/>
+                                                            <rect key="frame" x="92" y="8" width="230" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
                                                             <color key="textColor" red="0.074509803920000006" green="0.1139266416" blue="0.3882583678" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12345678" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFX-jU-JNr">
-                                                            <rect key="frame" x="92" y="46" width="229" height="21"/>
+                                                            <rect key="frame" x="92" y="46" width="230" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.6784313917" green="0.6784313917" blue="0.6784313917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ssT-S2-0e3">
-                                                            <rect key="frame" x="329" y="12" width="55" height="55"/>
+                                                            <rect key="frame" x="330" y="12" width="55" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                     </subviews>
@@ -527,7 +527,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="off-d9-D4i">
-                                <rect key="frame" x="-6" y="843" width="419" height="44"/>
+                                <rect key="frame" x="-5" y="843" width="418" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="7xx-o3-nCz"/>
@@ -539,7 +539,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </items>
                             </toolbar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="tbo-9B-aBt">
-                                <rect key="frame" x="353" y="102" width="47" height="60"/>
+                                <rect key="frame" x="354" y="102" width="47" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.76868444680000003" green="0.7684759498" blue="0.77647167439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -601,11 +601,11 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile-img.png" translatesAutoresizingMaskIntoConstraints="NO" id="FpG-Sf-lcx">
-                                <rect key="frame" x="120" y="96" width="166" height="165"/>
+                                <rect key="frame" x="121" y="96" width="165" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHz-fB-DNJ">
-                                <rect key="frame" x="120" y="96" width="166" height="165"/>
+                                <rect key="frame" x="121" y="96" width="165" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
@@ -681,7 +681,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="التسجيل" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5e-Hk-Ij0">
-                                <rect key="frame" x="120" y="20" width="166" height="47"/>
+                                <rect key="frame" x="121" y="20" width="165" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="27"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -715,11 +715,11 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top-code-img.png" translatesAutoresizingMaskIntoConstraints="NO" id="dpK-tH-wEy">
-                                <rect key="frame" x="-5" y="-20" width="416" height="217"/>
+                                <rect key="frame" x="-4" y="-20" width="415" height="217"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0V4-xF-Hzo">
-                                <rect key="frame" x="333" y="20" width="59" height="47"/>
+                                <rect key="frame" x="333" y="20" width="60" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
@@ -728,14 +728,14 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="التفعيل" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XE-dQ-003">
-                                <rect key="frame" x="120" y="20" width="169" height="47"/>
+                                <rect key="frame" x="121" y="20" width="168" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="27"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="OTP" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gx5-WX-IUS">
-                                <rect key="frame" x="17" y="308" width="375" height="40"/>
+                                <rect key="frame" x="18" y="308" width="375" height="40"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -744,11 +744,11 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="code-img.png" translatesAutoresizingMaskIntoConstraints="NO" id="NqZ-R6-jKa">
-                                <rect key="frame" x="120" y="96" width="166" height="165"/>
+                                <rect key="frame" x="121" y="96" width="165" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVE-AX-FQd">
-                                <rect key="frame" x="17" y="356" width="375" height="50"/>
+                                <rect key="frame" x="18" y="356" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.38823529410000002" green="0.83921568629999999" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
@@ -760,7 +760,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="أدخل رمز التفعيل الذي وصلك برسالة" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agr-9i-xoC">
-                                <rect key="frame" x="17" y="279" width="375" height="21"/>
+                                <rect key="frame" x="18" y="279" width="375" height="21"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
                                 <color key="textColor" red="0.19215686269999999" green="0.2156862745" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -789,12 +789,12 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="bxK-E1-cnx">
-                                <rect key="frame" x="-5" y="-3" width="416" height="838"/>
+                                <rect key="frame" x="-4" y="-3" width="415" height="838"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTw-Th-uLB">
-                                <rect key="frame" x="-5" y="0.0" width="416" height="186"/>
+                                <rect key="frame" x="-4" y="0.0" width="415" height="186"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.070588235289999995" green="0.3294117647" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -802,11 +802,11 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.05000000074505806" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="network-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="UzS-ou-A3b">
-                                <rect key="frame" x="-5" y="-8" width="416" height="201"/>
+                                <rect key="frame" x="-4" y="-8" width="415" height="201"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEA-xr-FdF">
-                                <rect key="frame" x="351" y="11" width="41" height="40"/>
+                                <rect key="frame" x="352" y="11" width="41" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.90196078431372551" green="0.47843137254901957" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
@@ -815,7 +815,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="miJ-e4-l7F">
-                                <rect key="frame" x="8" y="59" width="393" height="90"/>
+                                <rect key="frame" x="8" y="59" width="394" height="90"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" backgroundImage="empty-ad.png"/>
@@ -824,23 +824,23 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="75" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5ma-ee-qJJ">
-                                <rect key="frame" x="8" y="250" width="393" height="560"/>
+                                <rect key="frame" x="8" y="250" width="394" height="560"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="resultsCell" rowHeight="75" id="rbm-xo-2DF">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="75"/>
+                                        <rect key="frame" x="0.0" y="50" width="394" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rbm-xo-2DF" id="7KO-QX-Tvc">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="75"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="75"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view clipsSubviews="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wCE-MG-P7I">
-                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="75"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="75"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjE-Rl-VhR">
-                                                            <rect key="frame" x="190" y="0.0" width="95" height="75"/>
+                                                            <rect key="frame" x="191" y="0.0" width="96" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.91897416109999996" green="0.26964712140000002" blue="0.64076497202355442" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -849,7 +849,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dl-HY-7fB">
-                                                            <rect key="frame" x="0.0" y="0.0" width="94" height="75"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="95" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="0.51943585047678575" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -858,7 +858,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FuJ-i3-bF9">
-                                                            <rect key="frame" x="286" y="0.0" width="107" height="75"/>
+                                                            <rect key="frame" x="288" y="0.0" width="106" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -871,7 +871,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تبليغ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWp-69-i3b">
-                                                            <rect key="frame" x="198" y="41" width="81" height="34"/>
+                                                            <rect key="frame" x="199" y="41" width="82" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -879,7 +879,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="نسخ الرقم" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exc-fL-eW4">
-                                                            <rect key="frame" x="7" y="41" width="81" height="34"/>
+                                                            <rect key="frame" x="7" y="41" width="82" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -887,15 +887,15 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-report-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="aiA-wi-BAV">
-                                                            <rect key="frame" x="218" y="8" width="40" height="40"/>
+                                                            <rect key="frame" x="220" y="8" width="40" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-copy-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="79D-eq-Fnw">
-                                                            <rect key="frame" x="28" y="8" width="40" height="40"/>
+                                                            <rect key="frame" x="29" y="8" width="40" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4s-oo-GK2">
-                                                            <rect key="frame" x="95" y="0.0" width="94" height="75"/>
+                                                            <rect key="frame" x="96" y="0.0" width="94" height="75"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -904,7 +904,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="حظر" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSl-gQ-m5x">
-                                                            <rect key="frame" x="100" y="41" width="84" height="34"/>
+                                                            <rect key="frame" x="101" y="41" width="84" height="34"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
@@ -912,32 +912,32 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="options-block-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="RoA-lO-tIa">
-                                                            <rect key="frame" x="122" y="7" width="40" height="40"/>
+                                                            <rect key="frame" x="123" y="7" width="40" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
                                                 <view tag="6" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D41-EZ-VXQ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="75"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="75"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXY-kR-cbh">
-                                                            <rect key="frame" x="92" y="8" width="226" height="30"/>
+                                                            <rect key="frame" x="92" y="8" width="227" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
                                                             <color key="textColor" red="0.074509803920000006" green="0.1139266416" blue="0.3882583678" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12345678" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YD7-RN-pcL">
-                                                            <rect key="frame" x="92" y="46" width="226" height="21"/>
+                                                            <rect key="frame" x="92" y="46" width="227" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.6784313917" green="0.6784313917" blue="0.6784313917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jIp-Xr-FFV">
-                                                            <rect key="frame" x="326" y="12" width="55" height="55"/>
+                                                            <rect key="frame" x="327" y="12" width="55" height="55"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                     </subviews>
@@ -955,7 +955,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </connections>
                             </tableView>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HH9-pw-eWd">
-                                <rect key="frame" x="-5" y="-47" width="416" height="47"/>
+                                <rect key="frame" x="-4" y="-47" width="415" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
@@ -963,7 +963,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="skD-pP-Cw5" customClass="GADBannerView">
-                                <rect key="frame" x="42" y="194" width="322" height="50"/>
+                                <rect key="frame" x="43" y="194" width="321" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -997,6 +997,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                         <segue destination="1FW-Et-Pxu" kind="relationship" relationship="viewControllers" id="Pjt-vV-QHP"/>
                         <segue destination="KLd-kc-47d" kind="relationship" relationship="viewControllers" id="zj7-8F-U4R"/>
                         <segue destination="eq1-0w-fJT" kind="relationship" relationship="viewControllers" id="YqG-2n-pD4"/>
+                        <segue destination="Hcl-z9-9hw" kind="relationship" relationship="viewControllers" id="Z6W-ta-fRO"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0aA-V8-lAG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1012,12 +1013,12 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-sec-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="cPw-T6-XqC">
-                                <rect key="frame" x="-1" y="-3" width="412" height="896"/>
+                                <rect key="frame" x="0.0" y="-3" width="412" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxg-vw-dTl">
-                                <rect key="frame" x="-4" y="0.0" width="415" height="350"/>
+                                <rect key="frame" x="-3" y="0.0" width="415" height="350"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.20784313725490194" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1025,12 +1026,12 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.05000000074505806" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="security-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="N8e-FZ-6Ic">
-                                <rect key="frame" x="-4" y="-3" width="415" height="896"/>
+                                <rect key="frame" x="-3" y="-3" width="415" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcJ-cN-Yon">
-                                <rect key="frame" x="-1" y="-100" width="412" height="100"/>
+                                <rect key="frame" x="0.0" y="-100" width="412" height="100"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
@@ -1053,7 +1054,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="QvR-8E-UI2">
-                                <rect key="frame" x="196" y="537" width="19" height="20"/>
+                                <rect key="frame" x="197" y="537" width="18" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="color" red="0.13345473999999999" green="0.17294958229999999" blue="0.14901679749999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </activityIndicatorView>
@@ -1099,7 +1100,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 </connections>
                             </tableView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="svf-Na-ayJ">
-                                <rect key="frame" x="9" y="362" width="393" height="232"/>
+                                <rect key="frame" x="9" y="362" width="394" height="232"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="لتفعيل الحماية من السبام افتح إعدادات الأيفون" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbl-Bl-i0h">
@@ -1110,7 +1111,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="system-settings-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="See-9C-1HZ">
-                                        <rect key="frame" x="340" y="14" width="37" height="40"/>
+                                        <rect key="frame" x="341" y="14" width="37" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="اضغط على الهاتف - ثم حظر المكالمات وتحديد الهوية" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oN9-QT-V0V">
@@ -1121,7 +1122,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="system-phone-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xnf-Rf-nYx">
-                                        <rect key="frame" x="340" y="62" width="37" height="40"/>
+                                        <rect key="frame" x="341" y="62" width="37" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="قم بتفعيل خيار &quot;منو المتصل؟&quot;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s63-BD-wW2">
@@ -1132,7 +1133,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="system-switch-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="6HB-uJ-IIr">
-                                        <rect key="frame" x="340" y="111" width="37" height="40"/>
+                                        <rect key="frame" x="341" y="111" width="37" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBC-ob-UVx">
@@ -1150,14 +1151,14 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="الحماية غير مفعلة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFq-c3-d7u">
-                                <rect key="frame" x="-4" y="243" width="415" height="44"/>
+                                <rect key="frame" x="-3" y="243" width="415" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="أنت محمي من 10 متطفل" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="Lnd-XS-taH">
-                                <rect key="frame" x="-4" y="295" width="415" height="36"/>
+                                <rect key="frame" x="-3" y="295" width="415" height="36"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TanseekModernProArabic-Light" family="TanseekModernProArabic-Light" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1306,11 +1307,11 @@ If you have any questions about this Privacy Policy, please contact us.</string>
             </objects>
             <point key="canvasLocation" x="1735" y="273"/>
         </scene>
-        <!--Ads-->
+        <!--إعلانات-->
         <scene sceneID="rXC-wP-ejK">
             <objects>
                 <navigationController id="eq1-0w-fJT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Ads" image="tray.fill" catalog="system" id="rYq-ng-gs8"/>
+                    <tabBarItem key="tabBarItem" title="إعلانات" image="tray.fill" catalog="system" id="rYq-ng-gs8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="yHi-VI-mN2">
                         <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1528,23 +1529,431 @@ If you have any questions about this Privacy Policy, please contact us.</string>
             </objects>
             <point key="canvasLocation" x="2787" y="1825"/>
         </scene>
+        <!--شركات-->
+        <scene sceneID="Mm9-JN-WCJ">
+            <objects>
+                <viewController id="Hcl-z9-9hw" customClass="BusinessDirectoryViewController" customModule="menomotasel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Znu-Vh-PQR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="دليل الكويت التجاري" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJT-0m-jV1">
+                                <rect key="frame" x="20" y="68" width="374" height="35"/>
+                                <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="35"/>
+                                <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Zbs-wW-C3n">
+                                <rect key="frame" x="8" y="123" width="398" height="670"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aRS-Kj-x38">
+                                    <size key="itemSize" width="90" height="132"/>
+                                    <size key="headerReferenceSize" width="50" height="50"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="categoryCollectionCell" id="uXa-qt-dJV">
+                                        <rect key="frame" x="0.0" y="50" width="90" height="132"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HCA-Uk-W0Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="90" height="132"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="وزارات" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="9Yo-gc-5eU">
+                                                    <rect key="frame" x="28" y="78" width="34" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="5i7-lU-dez"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUc-0B-JZm">
+                                                    <rect key="frame" x="10" y="4" width="70" height="70"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WkF-oa-cC8">
+                                                            <rect key="frame" x="5" y="5" width="60" height="60"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="WkF-oa-cC8" secondAttribute="height" multiplier="1:1" id="eZa-1T-nVT"/>
+                                                                <constraint firstAttribute="width" constant="60" id="uUY-DV-JIZ"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="WkF-oa-cC8" firstAttribute="centerY" secondItem="fUc-0B-JZm" secondAttribute="centerY" id="0h1-AE-zRa"/>
+                                                        <constraint firstAttribute="width" secondItem="fUc-0B-JZm" secondAttribute="height" multiplier="1:1" id="G4x-GM-Npa"/>
+                                                        <constraint firstAttribute="width" constant="70" id="Tw1-qA-M1q"/>
+                                                        <constraint firstItem="WkF-oa-cC8" firstAttribute="centerX" secondItem="fUc-0B-JZm" secondAttribute="centerX" id="foC-Nl-S4N"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9Yo-gc-5eU" firstAttribute="centerX" secondItem="HCA-Uk-W0Y" secondAttribute="centerX" id="ARk-zN-t4X"/>
+                                                <constraint firstItem="9Yo-gc-5eU" firstAttribute="top" secondItem="fUc-0B-JZm" secondAttribute="bottom" constant="4" id="DT0-OU-Rth"/>
+                                                <constraint firstAttribute="bottom" secondItem="9Yo-gc-5eU" secondAttribute="bottom" constant="4" id="Go5-6l-1u2"/>
+                                                <constraint firstItem="fUc-0B-JZm" firstAttribute="top" secondItem="HCA-Uk-W0Y" secondAttribute="top" constant="4" id="Uux-8Q-03D"/>
+                                                <constraint firstItem="fUc-0B-JZm" firstAttribute="centerX" secondItem="HCA-Uk-W0Y" secondAttribute="centerX" id="azA-hi-w3s"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="90" height="132"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="categoryCollectionHeader" id="9WX-Vt-CaT">
+                                    <rect key="frame" x="0.0" y="0.0" width="398" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="دليل الكويت التجاري" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0PR-KC-F9d">
+                                            <rect key="frame" x="28" y="12.5" width="342" height="25"/>
+                                            <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
+                                            <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="0PR-KC-F9d" firstAttribute="leading" secondItem="9WX-Vt-CaT" secondAttribute="leadingMargin" constant="20" id="V0Q-RI-gBs"/>
+                                        <constraint firstItem="0PR-KC-F9d" firstAttribute="centerY" secondItem="9WX-Vt-CaT" secondAttribute="centerY" id="cQS-cy-Ojc"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="0PR-KC-F9d" secondAttribute="trailing" constant="20" id="vJ6-Ag-FCJ"/>
+                                    </constraints>
+                                </collectionReusableView>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15U-4G-q5m">
+                                <rect key="frame" x="368" y="72.5" width="26" height="26"/>
+                                <color key="tintColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="addCompanyClicked:" destination="Hcl-z9-9hw" eventType="touchUpInside" id="JVe-lp-PVM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cUA-ms-d15"/>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="cUA-ms-d15" firstAttribute="trailing" secondItem="15U-4G-q5m" secondAttribute="trailing" constant="20" id="7fM-R3-8Ld"/>
+                            <constraint firstItem="Zbs-wW-C3n" firstAttribute="top" secondItem="yJT-0m-jV1" secondAttribute="bottom" constant="20" id="C1X-4s-Rhc"/>
+                            <constraint firstItem="15U-4G-q5m" firstAttribute="centerY" secondItem="yJT-0m-jV1" secondAttribute="centerY" id="DTc-Wq-Pv6"/>
+                            <constraint firstItem="yJT-0m-jV1" firstAttribute="top" secondItem="cUA-ms-d15" secondAttribute="top" constant="20" id="Jxt-ed-vuA"/>
+                            <constraint firstItem="Zbs-wW-C3n" firstAttribute="leading" secondItem="cUA-ms-d15" secondAttribute="leading" constant="8" id="RXz-Mi-nWx"/>
+                            <constraint firstItem="cUA-ms-d15" firstAttribute="trailing" secondItem="yJT-0m-jV1" secondAttribute="trailing" constant="20" id="UFy-74-rsa"/>
+                            <constraint firstItem="cUA-ms-d15" firstAttribute="bottom" secondItem="Zbs-wW-C3n" secondAttribute="bottom" constant="20" id="ZW5-Li-61g"/>
+                            <constraint firstItem="yJT-0m-jV1" firstAttribute="leading" secondItem="cUA-ms-d15" secondAttribute="leading" constant="20" id="kIw-Yb-cOY"/>
+                            <constraint firstItem="cUA-ms-d15" firstAttribute="trailing" secondItem="Zbs-wW-C3n" secondAttribute="trailing" constant="8" id="thE-6E-ir1"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="شركات" image="folder.fill" catalog="system" id="2ml-xy-Msj"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Zbs-wW-C3n" id="oEm-UT-LcJ"/>
+                        <outlet property="titleLabel" destination="yJT-0m-jV1" id="VnN-l1-sN9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dYh-Hw-1rz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="500" y="3611"/>
+        </scene>
+        <!--Shops View Controller-->
+        <scene sceneID="BF9-81-P4v">
+            <objects>
+                <viewController storyboardIdentifier="ShopsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OoC-Fp-6fD" customClass="ShopsViewController" customModule="menomotasel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="65S-LP-kC9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-Zf-Ceh">
+                                <rect key="frame" x="334" y="30" width="60" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="nF3-Ag-vHo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
+                                <state key="normal" title="تم">
+                                    <color key="titleColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissClicked:" destination="OoC-Fp-6fD" eventType="touchUpInside" id="5Af-6r-2Nt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ministires" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWU-Dg-MYf">
+                                <rect key="frame" x="88" y="31" width="238" height="35"/>
+                                <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="35"/>
+                                <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Afq-3q-Sej">
+                                <rect key="frame" x="8" y="74" width="398" height="780"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iYb-Ph-Ga9">
+                                    <size key="itemSize" width="90" height="132"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shopCollectionCell" id="agH-ZG-c4D">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="132"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="enG-hk-LHE">
+                                            <rect key="frame" x="0.0" y="0.0" width="90" height="132"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="وزارات" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yD-xJ-fLb">
+                                                    <rect key="frame" x="28" y="78" width="34" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="FNl-lB-OII"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="20"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mVd-AX-fyf">
+                                                    <rect key="frame" x="10" y="4" width="70" height="70"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ktc-xc-0va">
+                                                            <rect key="frame" x="5" y="5" width="60" height="60"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="ktc-xc-0va" secondAttribute="height" multiplier="1:1" id="aPw-kV-fsZ"/>
+                                                                <constraint firstAttribute="width" constant="60" id="wqQ-LH-lUt"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="ktc-xc-0va" firstAttribute="centerX" secondItem="mVd-AX-fyf" secondAttribute="centerX" id="HrC-vr-m7n"/>
+                                                        <constraint firstAttribute="width" secondItem="mVd-AX-fyf" secondAttribute="height" multiplier="1:1" id="I41-d3-zlo"/>
+                                                        <constraint firstItem="ktc-xc-0va" firstAttribute="centerY" secondItem="mVd-AX-fyf" secondAttribute="centerY" id="mP0-QG-pSk"/>
+                                                        <constraint firstAttribute="width" constant="70" id="sif-vp-Emu"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="mVd-AX-fyf" firstAttribute="centerX" secondItem="enG-hk-LHE" secondAttribute="centerX" id="gg1-Hx-56x"/>
+                                                <constraint firstItem="mVd-AX-fyf" firstAttribute="top" secondItem="enG-hk-LHE" secondAttribute="top" constant="4" id="nZZ-bS-Mhv"/>
+                                                <constraint firstAttribute="bottom" secondItem="6yD-xJ-fLb" secondAttribute="bottom" constant="4" id="tqf-Hs-z8q"/>
+                                                <constraint firstItem="6yD-xJ-fLb" firstAttribute="centerX" secondItem="enG-hk-LHE" secondAttribute="centerX" id="vgL-4a-zuX"/>
+                                                <constraint firstItem="6yD-xJ-fLb" firstAttribute="top" secondItem="mVd-AX-fyf" secondAttribute="bottom" constant="4" id="wRv-RN-gLt"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="90" height="132"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bM5-cw-dy3"/>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bM5-cw-dy3" firstAttribute="trailing" secondItem="wwc-Zf-Ceh" secondAttribute="trailing" constant="20" id="L2o-uo-NKY"/>
+                            <constraint firstItem="ZWU-Dg-MYf" firstAttribute="centerY" secondItem="wwc-Zf-Ceh" secondAttribute="centerY" id="NDz-UQ-Qsf"/>
+                            <constraint firstItem="bM5-cw-dy3" firstAttribute="trailing" secondItem="ZWU-Dg-MYf" secondAttribute="trailing" constant="88" id="NXK-Mj-y1L"/>
+                            <constraint firstItem="wwc-Zf-Ceh" firstAttribute="top" secondItem="65S-LP-kC9" secondAttribute="top" constant="30" id="Ppm-zj-hYi"/>
+                            <constraint firstItem="bM5-cw-dy3" firstAttribute="trailing" secondItem="Afq-3q-Sej" secondAttribute="trailing" constant="8" id="WBW-O5-AEa"/>
+                            <constraint firstItem="ZWU-Dg-MYf" firstAttribute="leading" secondItem="bM5-cw-dy3" secondAttribute="leading" constant="88" id="X9D-3x-zjh"/>
+                            <constraint firstItem="Afq-3q-Sej" firstAttribute="leading" secondItem="bM5-cw-dy3" secondAttribute="leading" constant="8" id="aDI-AB-sEs"/>
+                            <constraint firstItem="Afq-3q-Sej" firstAttribute="top" secondItem="ZWU-Dg-MYf" secondAttribute="bottom" constant="8" id="dbO-a8-RG4"/>
+                            <constraint firstItem="bM5-cw-dy3" firstAttribute="bottom" secondItem="Afq-3q-Sej" secondAttribute="bottom" constant="8" id="q52-R3-2SO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Afq-3q-Sej" id="ZBU-iU-psx"/>
+                        <outlet property="doneButton" destination="wwc-Zf-Ceh" id="Ult-Ud-mqW"/>
+                        <outlet property="titleLabel" destination="ZWU-Dg-MYf" id="nUS-Ch-grz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uKa-Cu-aKu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1403" y="3611"/>
+        </scene>
+        <!--Business Profile View Controller-->
+        <scene sceneID="cEn-D9-ucY">
+            <objects>
+                <viewController storyboardIdentifier="BusinessProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mSa-34-OY2" customClass="BusinessProfileViewController" customModule="menomotasel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HDv-jB-sYe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHb-bn-lRx">
+                                <rect key="frame" x="334" y="30" width="60" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="y6Z-OK-oWP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="25"/>
+                                <state key="normal" title="تم">
+                                    <color key="titleColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissClicked:" destination="mSa-34-OY2" eventType="touchUpInside" id="oPa-rb-r41"/>
+                                </connections>
+                            </button>
+                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zF1-g1-Mku">
+                                <rect key="frame" x="147" y="30" width="120" height="120"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shopPlaceHolder" translatesAutoresizingMaskIntoConstraints="NO" id="KoA-eW-cHX">
+                                        <rect key="frame" x="5" y="5" width="110" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="3Yg-Vu-2pA"/>
+                                            <constraint firstAttribute="width" secondItem="KoA-eW-cHX" secondAttribute="height" multiplier="1:1" id="Fg4-qu-LQk"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="7OV-c1-vTw"/>
+                                    <constraint firstItem="KoA-eW-cHX" firstAttribute="centerX" secondItem="zF1-g1-Mku" secondAttribute="centerX" id="URX-IG-acT"/>
+                                    <constraint firstAttribute="width" secondItem="zF1-g1-Mku" secondAttribute="height" multiplier="1:1" id="eH5-vv-MgB"/>
+                                    <constraint firstItem="KoA-eW-cHX" firstAttribute="centerY" secondItem="zF1-g1-Mku" secondAttribute="centerY" id="eT0-Q8-Tc5"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sIS-AD-muM">
+                                <rect key="frame" x="10" y="241" width="394" height="601"/>
+                                <color key="backgroundColor" white="1" alpha="0.2032052654" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="businessProfileCell" rowHeight="84" id="X6z-WC-G4i">
+                                        <rect key="frame" x="0.0" y="50" width="394" height="84"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X6z-WC-G4i" id="2vn-vn-CGZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="84"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat1sub1" translatesAutoresizingMaskIntoConstraints="NO" id="ybJ-GB-psr">
+                                                    <rect key="frame" x="8" y="12" width="60" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="ybJ-GB-psr" secondAttribute="height" multiplier="1:1" id="4I3-bZ-XSL"/>
+                                                        <constraint firstAttribute="width" constant="60" id="YPE-iU-ksM"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info.png" translatesAutoresizingMaskIntoConstraints="NO" id="FVS-GH-wTI">
+                                                    <rect key="frame" x="368" y="33" width="18" height="18"/>
+                                                    <color key="tintColor" systemColor="systemRedColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="18" id="Qj6-iA-GRV"/>
+                                                        <constraint firstAttribute="width" secondItem="FVS-GH-wTI" secondAttribute="height" multiplier="1:1" id="lED-D8-0Qq"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1U-s2-s9D">
+                                                    <rect key="frame" x="72" y="0.0" width="266" height="84"/>
+                                                    <fontDescription key="fontDescription" name="TanseekModernProArabic-Light" family="TanseekModernProArabic-Light" pointSize="30"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="X1U-s2-s9D" firstAttribute="top" secondItem="2vn-vn-CGZ" secondAttribute="top" id="H3l-rr-UfG"/>
+                                                <constraint firstItem="FVS-GH-wTI" firstAttribute="width" secondItem="FVS-GH-wTI" secondAttribute="height" multiplier="1:1" id="KE6-dk-07F"/>
+                                                <constraint firstItem="ybJ-GB-psr" firstAttribute="leading" secondItem="2vn-vn-CGZ" secondAttribute="leading" constant="8" id="Pn0-4z-vNW"/>
+                                                <constraint firstItem="X1U-s2-s9D" firstAttribute="leading" secondItem="ybJ-GB-psr" secondAttribute="trailing" constant="4" id="QDN-DN-7PS"/>
+                                                <constraint firstItem="FVS-GH-wTI" firstAttribute="leading" secondItem="X1U-s2-s9D" secondAttribute="trailing" constant="30" id="dvA-aU-84H"/>
+                                                <constraint firstItem="FVS-GH-wTI" firstAttribute="centerY" secondItem="2vn-vn-CGZ" secondAttribute="centerY" id="myM-33-VMb"/>
+                                                <constraint firstItem="ybJ-GB-psr" firstAttribute="centerY" secondItem="2vn-vn-CGZ" secondAttribute="centerY" id="ovr-AO-cOD"/>
+                                                <constraint firstAttribute="trailing" secondItem="FVS-GH-wTI" secondAttribute="trailing" constant="8" id="pif-i6-xXI"/>
+                                                <constraint firstAttribute="bottom" secondItem="X1U-s2-s9D" secondAttribute="bottom" id="rTq-Re-LiR"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ncK-ah-c4q" customClass="CosmosView" customModule="Cosmos">
+                                <rect key="frame" x="122" y="158" width="110" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="7mJ-h1-qFJ"/>
+                                    <constraint firstAttribute="height" constant="20" id="Tit-2T-Bw1"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                        <real key="value" value="4.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="emptyBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="filledBorderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="filledBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="filledStarImage" value="GoldStarFilled"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyStarImage" value="GoldStarEmpty"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ministires" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bmn-Pb-nfv">
+                                <rect key="frame" x="20" y="186" width="374" height="35"/>
+                                <fontDescription key="fontDescription" name="TanseekModernProArabic-Medium" family="TanseekModernProArabic-Medium" pointSize="35"/>
+                                <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="W1g-9n-TJ8"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zF1-g1-Mku" firstAttribute="width" secondItem="zF1-g1-Mku" secondAttribute="height" multiplier="1:1" id="2vB-XH-m0g"/>
+                            <constraint firstItem="W1g-9n-TJ8" firstAttribute="trailing" secondItem="sIS-AD-muM" secondAttribute="trailing" constant="10" id="FYR-G5-pHg"/>
+                            <constraint firstItem="zF1-g1-Mku" firstAttribute="top" secondItem="lHb-bn-lRx" secondAttribute="top" id="Jlc-hl-IWx"/>
+                            <constraint firstItem="W1g-9n-TJ8" firstAttribute="trailing" secondItem="Bmn-Pb-nfv" secondAttribute="trailing" constant="20" id="Zjh-4C-fQ1"/>
+                            <constraint firstItem="W1g-9n-TJ8" firstAttribute="trailing" secondItem="lHb-bn-lRx" secondAttribute="trailing" constant="20" id="cLU-rG-wgw"/>
+                            <constraint firstItem="zF1-g1-Mku" firstAttribute="centerX" secondItem="Bmn-Pb-nfv" secondAttribute="centerX" id="f99-3y-F8i"/>
+                            <constraint firstItem="W1g-9n-TJ8" firstAttribute="bottom" secondItem="sIS-AD-muM" secondAttribute="bottom" constant="20" id="j1d-Wa-C4b"/>
+                            <constraint firstItem="sIS-AD-muM" firstAttribute="top" secondItem="Bmn-Pb-nfv" secondAttribute="bottom" constant="20" id="khf-fd-C8V"/>
+                            <constraint firstItem="Bmn-Pb-nfv" firstAttribute="top" secondItem="ncK-ah-c4q" secondAttribute="bottom" constant="8" id="oQb-Fo-Phc"/>
+                            <constraint firstItem="lHb-bn-lRx" firstAttribute="top" secondItem="HDv-jB-sYe" secondAttribute="top" constant="30" id="pjD-9b-13j"/>
+                            <constraint firstItem="ncK-ah-c4q" firstAttribute="centerX" secondItem="KoA-eW-cHX" secondAttribute="centerX" constant="-30" id="qSJ-kU-Hb4"/>
+                            <constraint firstItem="sIS-AD-muM" firstAttribute="leading" secondItem="W1g-9n-TJ8" secondAttribute="leading" constant="10" id="s3Y-tF-KLg"/>
+                            <constraint firstItem="ncK-ah-c4q" firstAttribute="top" secondItem="zF1-g1-Mku" secondAttribute="bottom" constant="8" id="wa7-Oa-m6s"/>
+                            <constraint firstItem="Bmn-Pb-nfv" firstAttribute="leading" secondItem="W1g-9n-TJ8" secondAttribute="leading" constant="20" id="zLT-Pn-fLL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="doneButton" destination="lHb-bn-lRx" id="gcG-5V-NuS"/>
+                        <outlet property="iconHolderView" destination="zF1-g1-Mku" id="lHU-bp-h2M"/>
+                        <outlet property="iconImageView" destination="KoA-eW-cHX" id="CxB-zJ-Y26"/>
+                        <outlet property="ratingView" destination="ncK-ah-c4q" id="mwz-q5-Z0v"/>
+                        <outlet property="tableView" destination="sIS-AD-muM" id="4cC-c8-6wm"/>
+                        <outlet property="titleLabel" destination="Bmn-Pb-nfv" id="hwG-m7-pq3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Hc-7q-OZc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2381" y="3611"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="0c3-rq-Gpd"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="GoldStarEmpty" width="53" height="51"/>
+        <image name="GoldStarFilled" width="53" height="51"/>
         <image name="adTab" width="36" height="36"/>
         <image name="adTestImg" width="150" height="280"/>
         <image name="app-background.png" width="414" height="896"/>
         <image name="app-sec-background.png" width="414" height="896"/>
         <image name="blacklisted-icon.png" width="55" height="55"/>
+        <image name="cat1sub1" width="100" height="100"/>
         <image name="code-img.png" width="165" height="165"/>
         <image name="contact-top-img.png" width="414" height="216"/>
         <image name="empty-ad.png" width="394" height="90"/>
         <image name="empty-log.png" width="100" height="100"/>
+        <image name="folder.fill" catalog="system" width="128" height="96"/>
         <image name="gear" catalog="system" width="128" height="122"/>
         <image name="info-arrow-highlighted.png" width="13" height="13"/>
         <image name="info-arrow.png" width="13" height="13"/>
+        <image name="info.png" width="180" height="180"/>
         <image name="kuwait-circular.png" width="48" height="48"/>
         <image name="loading-img.png" width="83" height="83"/>
         <image name="magnifying-glass-icon.png" width="40" height="40"/>
@@ -1563,6 +1972,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
         <image name="settings-profile-icon.png" width="32" height="32"/>
         <image name="settings-rate-icon.png" width="32" height="32"/>
         <image name="shield-icon.png" width="40" height="40"/>
+        <image name="shopPlaceHolder" width="100" height="100"/>
         <image name="system-phone-icon.png" width="40" height="40"/>
         <image name="system-settings-icon.png" width="40" height="40"/>
         <image name="system-switch-icon.png" width="40" height="40"/>
@@ -1582,6 +1992,9 @@ If you have any questions about this Privacy Policy, please contact us.</string>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

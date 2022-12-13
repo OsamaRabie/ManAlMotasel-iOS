@@ -192,6 +192,11 @@
 		E89FE0C029485C3B00875849 /* BottomPopupPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0B829485C3B00875849 /* BottomPopupPresentAnimator.swift */; };
 		E89FE0C129485C3B00875849 /* BottomPopupTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0B929485C3B00875849 /* BottomPopupTransitionHandler.swift */; };
 		E89FE0C229485C3B00875849 /* BottomPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0BA29485C3B00875849 /* BottomPopupPresentationController.swift */; };
+		E89FE0C5294867BC00875849 /* BusinessDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0C4294867BC00875849 /* BusinessDirectoryViewController.swift */; };
+		E89FE0C72948685D00875849 /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0C62948685D00875849 /* ShopsViewController.swift */; };
+		E89FE0C9294868D500875849 /* BusinessProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0C8294868D500875849 /* BusinessProfileViewController.swift */; };
+		E89FE0CC2948694200875849 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = E89FE0CB2948694200875849 /* Cosmos */; };
+		E89FE0CE29486B0A00875849 /* Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = E89FE0CD29486B0A00875849 /* Categories.json */; };
 		E8F933FD293C9BAC008C3B78 /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F933F0293C9BA0008C3B78 /* Street.swift */; };
 		E8F933FE293C9BAC008C3B78 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F933F1293C9BA1008C3B78 /* Location.swift */; };
 		E8F933FF293C9BAC008C3B78 /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F933F2293C9BA2008C3B78 /* Id.swift */; };
@@ -426,6 +431,10 @@
 		E89FE0B829485C3B00875849 /* BottomPopupPresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentAnimator.swift; sourceTree = "<group>"; };
 		E89FE0B929485C3B00875849 /* BottomPopupTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupTransitionHandler.swift; sourceTree = "<group>"; };
 		E89FE0BA29485C3B00875849 /* BottomPopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentationController.swift; sourceTree = "<group>"; };
+		E89FE0C4294867BC00875849 /* BusinessDirectoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessDirectoryViewController.swift; sourceTree = "<group>"; };
+		E89FE0C62948685D00875849 /* ShopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopsViewController.swift; sourceTree = "<group>"; };
+		E89FE0C8294868D500875849 /* BusinessProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessProfileViewController.swift; sourceTree = "<group>"; };
+		E89FE0CD29486B0A00875849 /* Categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Categories.json; sourceTree = "<group>"; };
 		E8F933F0293C9BA0008C3B78 /* Street.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Street.swift; sourceTree = "<group>"; };
 		E8F933F1293C9BA1008C3B78 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		E8F933F2293C9BA2008C3B78 /* Id.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Id.swift; sourceTree = "<group>"; };
@@ -451,6 +460,7 @@
 			files = (
 				18A7701B27FC97FCE4D55364 /* Pods_menomotasel.framework in Frameworks */,
 				E87703DA293C985B00D46E7C /* Alamofire in Frameworks */,
+				E89FE0CC2948694200875849 /* Cosmos in Frameworks */,
 				E8F9340E293C9EF6008C3B78 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +503,7 @@
 		1EA630A227FC409900851D4F /* menomotasel */ = {
 			isa = PBXGroup;
 			children = (
+				E89FE0C3294867A500875849 /* business */,
 				E8F93411293CEC00008C3B78 /* menomotasel.entitlements */,
 				E8F933EF293C9B92008C3B78 /* Models */,
 				E87703D0293C822000D46E7C /* GoogleService-Info.plist */,
@@ -727,6 +738,17 @@
 			path = BottomPopupController;
 			sourceTree = "<group>";
 		};
+		E89FE0C3294867A500875849 /* business */ = {
+			isa = PBXGroup;
+			children = (
+				E89FE0CD29486B0A00875849 /* Categories.json */,
+				E89FE0C4294867BC00875849 /* BusinessDirectoryViewController.swift */,
+				E89FE0C62948685D00875849 /* ShopsViewController.swift */,
+				E89FE0C8294868D500875849 /* BusinessProfileViewController.swift */,
+			);
+			path = business;
+			sourceTree = "<group>";
+		};
 		E8F933EF293C9B92008C3B78 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -773,6 +795,7 @@
 			packageProductDependencies = (
 				E87703D9293C985B00D46E7C /* Alamofire */,
 				E8F9340D293C9EF6008C3B78 /* AlamofireImage */,
+				E89FE0CB2948694200875849 /* Cosmos */,
 			);
 			productName = menomotasel;
 			productReference = 1EA630A027FC409900851D4F /* menomotasel.app */;
@@ -826,6 +849,7 @@
 			packageReferences = (
 				E87703D8293C985B00D46E7C /* XCRemoteSwiftPackageReference "Alamofire" */,
 				E8F9340C293C9EF6008C3B78 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				E89FE0CA2948694200875849 /* XCRemoteSwiftPackageReference "Cosmos" */,
 			);
 			productRefGroup = 1EA630A127FC409900851D4F /* Products */;
 			projectDirPath = "";
@@ -953,6 +977,7 @@
 				1E34118F2802EB8100D9EA91 /* bronze-service@3x.png in Resources */,
 				1E3E0AAC2800612800373228 /* app-sec-background@2x.png in Resources */,
 				1E3E0A9F28004DD700373228 /* network-background@2x.png in Resources */,
+				E89FE0CE29486B0A00875849 /* Categories.json in Resources */,
 				1E3E0AC3280094C000373228 /* options-report-icon.png in Resources */,
 				1E368DF32937412100D65BDC /* contact-top-img@2x.png in Resources */,
 				1E341180280226D700D9EA91 /* stars-background@2x.png in Resources */,
@@ -1061,6 +1086,7 @@
 				1ED5CC442801C0D900E322D3 /* SettingsController.swift in Sources */,
 				1E2673A62801FF2D00470FEB /* ProController.swift in Sources */,
 				E84B8BEB294313DD00DFCDD1 /* MusaedAdController.swift in Sources */,
+				E89FE0C72948685D00875849 /* ShopsViewController.swift in Sources */,
 				E89FE0C129485C3B00875849 /* BottomPopupTransitionHandler.swift in Sources */,
 				E89FE0B02948599A00875849 /* FullScreenAdViewController.swift in Sources */,
 				E8F93400293C9BAC008C3B78 /* Info.swift in Sources */,
@@ -1071,11 +1097,13 @@
 				E89FE0C229485C3B00875849 /* BottomPopupPresentationController.swift in Sources */,
 				E8F93402293C9BAC008C3B78 /* Registered.swift in Sources */,
 				E89FE0A82948589F00875849 /* AdsViewController.swift in Sources */,
+				E89FE0C9294868D500875849 /* BusinessProfileViewController.swift in Sources */,
 				1EB9AFCF27FE20BA0030672A /* ResultsController.swift in Sources */,
 				E89FE0BE29485C3B00875849 /* BottomPopupNavigationController.swift in Sources */,
 				1EA630A827FC409900851D4F /* ViewController.swift in Sources */,
 				E8F933FE293C9BAC008C3B78 /* Location.swift in Sources */,
 				E8F93408293C9BAC008C3B78 /* Coordinates.swift in Sources */,
+				E89FE0C5294867BC00875849 /* BusinessDirectoryViewController.swift in Sources */,
 				E89FE0AE2948599A00875849 /* UploadAdViewController.swift in Sources */,
 				E8F933FD293C9BAC008C3B78 /* Street.swift in Sources */,
 				E8F93410293CE563008C3B78 /* FirebaseAuthUsersManager.swift in Sources */,
@@ -1432,6 +1460,14 @@
 				kind = branch;
 			};
 		};
+		E89FE0CA2948694200875849 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 21.0.0;
+			};
+		};
 		E8F9340C293C9EF6008C3B78 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
@@ -1447,6 +1483,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E87703D8293C985B00D46E7C /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		E89FE0CB2948694200875849 /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E89FE0CA2948694200875849 /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
 		};
 		E8F9340D293C9EF6008C3B78 /* AlamofireImage */ = {
 			isa = XCSwiftPackageProductDependency;
