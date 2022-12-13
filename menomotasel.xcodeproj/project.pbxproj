@@ -179,6 +179,19 @@
 		E87703D3293C89D800D46E7C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87703D2293C89D800D46E7C /* Configuration.swift */; };
 		E87703D7293C941B00D46E7C /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E87703D5293C941A00D46E7C /* UICKeyChainStore.m */; };
 		E87703DA293C985B00D46E7C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E87703D9293C985B00D46E7C /* Alamofire */; };
+		E89FE0A82948589F00875849 /* AdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0A72948589F00875849 /* AdsViewController.swift */; };
+		E89FE0AD2948599A00875849 /* AdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0A92948599800875849 /* AdsCollectionViewCell.swift */; };
+		E89FE0AE2948599A00875849 /* UploadAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0AA2948599900875849 /* UploadAdViewController.swift */; };
+		E89FE0AF2948599A00875849 /* AdsInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0AB2948599900875849 /* AdsInfoViewController.swift */; };
+		E89FE0B02948599A00875849 /* FullScreenAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0AC2948599A00875849 /* FullScreenAdViewController.swift */; };
+		E89FE0BB29485C3B00875849 /* BottomPopupUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0B329485C3B00875849 /* BottomPopupUtils.swift */; };
+		E89FE0BC29485C3B00875849 /* BottomPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0B429485C3B00875849 /* BottomPopupViewController.swift */; };
+		E89FE0BD29485C3B00875849 /* BottomPopupDismissInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0B529485C3B00875849 /* BottomPopupDismissInteractionController.swift */; };
+		E89FE0BE29485C3B00875849 /* BottomPopupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0B629485C3B00875849 /* BottomPopupNavigationController.swift */; };
+		E89FE0BF29485C3B00875849 /* BottomPopupDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0B729485C3B00875849 /* BottomPopupDismissAnimator.swift */; };
+		E89FE0C029485C3B00875849 /* BottomPopupPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0B829485C3B00875849 /* BottomPopupPresentAnimator.swift */; };
+		E89FE0C129485C3B00875849 /* BottomPopupTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0B929485C3B00875849 /* BottomPopupTransitionHandler.swift */; };
+		E89FE0C229485C3B00875849 /* BottomPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FE0BA29485C3B00875849 /* BottomPopupPresentationController.swift */; };
 		E8F933FD293C9BAC008C3B78 /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F933F0293C9BA0008C3B78 /* Street.swift */; };
 		E8F933FE293C9BAC008C3B78 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F933F1293C9BA1008C3B78 /* Location.swift */; };
 		E8F933FF293C9BAC008C3B78 /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F933F2293C9BA2008C3B78 /* Id.swift */; };
@@ -400,6 +413,19 @@
 		E87703D4293C941800D46E7C /* menomotasel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "menomotasel-Bridging-Header.h"; sourceTree = "<group>"; };
 		E87703D5293C941A00D46E7C /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
 		E87703D6293C941B00D46E7C /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		E89FE0A72948589F00875849 /* AdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewController.swift; sourceTree = "<group>"; };
+		E89FE0A92948599800875849 /* AdsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E89FE0AA2948599900875849 /* UploadAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadAdViewController.swift; sourceTree = "<group>"; };
+		E89FE0AB2948599900875849 /* AdsInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsInfoViewController.swift; sourceTree = "<group>"; };
+		E89FE0AC2948599A00875849 /* FullScreenAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenAdViewController.swift; sourceTree = "<group>"; };
+		E89FE0B329485C3B00875849 /* BottomPopupUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupUtils.swift; sourceTree = "<group>"; };
+		E89FE0B429485C3B00875849 /* BottomPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupViewController.swift; sourceTree = "<group>"; };
+		E89FE0B529485C3B00875849 /* BottomPopupDismissInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissInteractionController.swift; sourceTree = "<group>"; };
+		E89FE0B629485C3B00875849 /* BottomPopupNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupNavigationController.swift; sourceTree = "<group>"; };
+		E89FE0B729485C3B00875849 /* BottomPopupDismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissAnimator.swift; sourceTree = "<group>"; };
+		E89FE0B829485C3B00875849 /* BottomPopupPresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentAnimator.swift; sourceTree = "<group>"; };
+		E89FE0B929485C3B00875849 /* BottomPopupTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupTransitionHandler.swift; sourceTree = "<group>"; };
+		E89FE0BA29485C3B00875849 /* BottomPopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentationController.swift; sourceTree = "<group>"; };
 		E8F933F0293C9BA0008C3B78 /* Street.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Street.swift; sourceTree = "<group>"; };
 		E8F933F1293C9BA1008C3B78 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		E8F933F2293C9BA2008C3B78 /* Id.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Id.swift; sourceTree = "<group>"; };
@@ -488,6 +514,8 @@
 				1EA630AE27FC409B00851D4F /* LaunchScreen.storyboard */,
 				1EA630B127FC409B00851D4F /* Info.plist */,
 				E87703D4293C941800D46E7C /* menomotasel-Bridging-Header.h */,
+				E89FE0B229485C3B00875849 /* BottomPopupController */,
+				E89FE0B1294859A200875849 /* Ads */,
 			);
 			path = menomotasel;
 			sourceTree = "<group>";
@@ -670,6 +698,33 @@
 				E84EC89F293E04DE00AC6C09 /* Info.plist */,
 			);
 			path = MenoMotaselDirectory;
+			sourceTree = "<group>";
+		};
+		E89FE0B1294859A200875849 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				E89FE0A72948589F00875849 /* AdsViewController.swift */,
+				E89FE0A92948599800875849 /* AdsCollectionViewCell.swift */,
+				E89FE0AB2948599900875849 /* AdsInfoViewController.swift */,
+				E89FE0AC2948599A00875849 /* FullScreenAdViewController.swift */,
+				E89FE0AA2948599900875849 /* UploadAdViewController.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		E89FE0B229485C3B00875849 /* BottomPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				E89FE0B329485C3B00875849 /* BottomPopupUtils.swift */,
+				E89FE0B429485C3B00875849 /* BottomPopupViewController.swift */,
+				E89FE0B529485C3B00875849 /* BottomPopupDismissInteractionController.swift */,
+				E89FE0B629485C3B00875849 /* BottomPopupNavigationController.swift */,
+				E89FE0B729485C3B00875849 /* BottomPopupDismissAnimator.swift */,
+				E89FE0B829485C3B00875849 /* BottomPopupPresentAnimator.swift */,
+				E89FE0B929485C3B00875849 /* BottomPopupTransitionHandler.swift */,
+				E89FE0BA29485C3B00875849 /* BottomPopupPresentationController.swift */,
+			);
+			path = BottomPopupController;
 			sourceTree = "<group>";
 		};
 		E8F933EF293C9B92008C3B78 /* Models */ = {
@@ -1006,22 +1061,35 @@
 				1ED5CC442801C0D900E322D3 /* SettingsController.swift in Sources */,
 				1E2673A62801FF2D00470FEB /* ProController.swift in Sources */,
 				E84B8BEB294313DD00DFCDD1 /* MusaedAdController.swift in Sources */,
+				E89FE0C129485C3B00875849 /* BottomPopupTransitionHandler.swift in Sources */,
+				E89FE0B02948599A00875849 /* FullScreenAdViewController.swift in Sources */,
 				E8F93400293C9BAC008C3B78 /* Info.swift in Sources */,
 				E8F9340B293C9BD7008C3B78 /* CardModel.swift in Sources */,
 				E87703D7293C941B00D46E7C /* UICKeyChainStore.m in Sources */,
 				E8F93406293C9BAC008C3B78 /* Json4Swift_Base.swift in Sources */,
+				E89FE0AF2948599A00875849 /* AdsInfoViewController.swift in Sources */,
+				E89FE0C229485C3B00875849 /* BottomPopupPresentationController.swift in Sources */,
 				E8F93402293C9BAC008C3B78 /* Registered.swift in Sources */,
+				E89FE0A82948589F00875849 /* AdsViewController.swift in Sources */,
 				1EB9AFCF27FE20BA0030672A /* ResultsController.swift in Sources */,
+				E89FE0BE29485C3B00875849 /* BottomPopupNavigationController.swift in Sources */,
 				1EA630A827FC409900851D4F /* ViewController.swift in Sources */,
 				E8F933FE293C9BAC008C3B78 /* Location.swift in Sources */,
 				E8F93408293C9BAC008C3B78 /* Coordinates.swift in Sources */,
+				E89FE0AE2948599A00875849 /* UploadAdViewController.swift in Sources */,
 				E8F933FD293C9BAC008C3B78 /* Street.swift in Sources */,
 				E8F93410293CE563008C3B78 /* FirebaseAuthUsersManager.swift in Sources */,
+				E89FE0AD2948599A00875849 /* AdsCollectionViewCell.swift in Sources */,
 				1EA630A427FC409900851D4F /* AppDelegate.swift in Sources */,
 				E8F93401293C9BAC008C3B78 /* Results.swift in Sources */,
+				E89FE0BB29485C3B00875849 /* BottomPopupUtils.swift in Sources */,
 				E87703D3293C89D800D46E7C /* Configuration.swift in Sources */,
 				1E368E072937DD0E00D65BDC /* CreateAccountController.swift in Sources */,
+				E89FE0C029485C3B00875849 /* BottomPopupPresentAnimator.swift in Sources */,
 				E8F93407293C9BAC008C3B78 /* Dob.swift in Sources */,
+				E89FE0BC29485C3B00875849 /* BottomPopupViewController.swift in Sources */,
+				E89FE0BF29485C3B00875849 /* BottomPopupDismissAnimator.swift in Sources */,
+				E89FE0BD29485C3B00875849 /* BottomPopupDismissInteractionController.swift in Sources */,
 				E8F93405293C9BAC008C3B78 /* Name.swift in Sources */,
 				1EA630A627FC409900851D4F /* SceneDelegate.swift in Sources */,
 				E8F93403293C9BAC008C3B78 /* Login.swift in Sources */,

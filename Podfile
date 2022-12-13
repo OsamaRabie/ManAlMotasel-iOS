@@ -18,6 +18,9 @@ pod 'Firebase/Analytics'
 pod 'Firebase/RemoteConfig'
 pod 'KSToastView', '0.5.7'
 pod 'SwiftyGif'
+pod 'FSnapChatLoading'
+pod 'Imaginary'
+pod 'moa'
 
 
 post_install do |installer|
