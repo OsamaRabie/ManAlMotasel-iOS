@@ -1343,7 +1343,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="adCell" id="Lxa-Nc-8gN" customClass="AdsCollectionViewCell" customModule="منو_داق" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="adCell" id="Lxa-Nc-8gN" customClass="AdsCollectionViewCell" customModule="menomotasel" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="180" height="280"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uA2-bz-yv2">
@@ -1457,6 +1457,13 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                                     <action selector="closeMe:" destination="7MG-vv-vwy" eventType="touchUpInside" id="seI-RE-fdl"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*تنويه : لن يتم قبول اي اعلان يحتوي على جنسيات معينة." textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0l-ID-HTg">
+                                <rect key="frame" x="20" y="379" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dLu-De-h1q"/>
                         <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1471,7 +1478,7 @@ If you have any questions about this Privacy Policy, please contact us.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPU-sA-eyB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2787" y="2592"/>
+            <point key="canvasLocation" x="2786.9565217391305" y="2591.5178571428569"/>
         </scene>
         <!--Ads Info View Controller-->
         <scene sceneID="ow4-sB-wov">
